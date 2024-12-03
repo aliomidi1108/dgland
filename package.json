@@ -1,0 +1,19 @@
+{
+  "name": "dl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "description": ""
+}

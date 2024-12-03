@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" mohtava="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه اینترنتی دیجی لند</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="/media/favicon/logo.svg" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- start nav2 -->
+  <div class="lg:hidden  block flex border-b-4 !w-full flex-row h-[64px]  items-center justify-between p-4">
+    <img class="mx-auto" src="./media/search/dgland_main_logo.svg" alt="">
+    <img class="w-[32px] h-[30px] -rotate-90 cursor-pointer" src="./media/svgpage2/svgexport-4.svg" alt="">
+  </div>
+  <!-- end nav2 -->
+
+
+
+  <!-- start navar balaye kole safhe -->
+  <section class="lg:block hidden fixed top-0 z-[99]  h-fit w-full scroll-m-2 border-b bg-white font-mainFa shadow-sm ">
+    <!-- start banner tabligh -->
+    <img class="object-cover w-full h-10 lg:hidden" src="./media/banner-start/banner responsive.webp" alt="" />
+    <img class="lg:object-cover lg:block hidden lg: lg:w-full lg:h-10" src="./media/banner-start/banner.jpg" alt="" />
+    <!-- end banner tabligh -->
+  </section>
+  <!-- end navar balaye kole safhe -->
+
+  <!-- start menu desctop -->
+  <section id="navbar"
+    class="lg:block hidden fixed top-0  mt-10 scroll-m-2 border-b   shadow-sm lg:block w-full flex-col  bg-white z-10  h-[74px] flex lg:h-[144px]  px-[16px]">
+    <div class="flex w-full pt-6 flex-row items-center gap-3 justify-between bg-blac">
+      <!-- دکمه باز کردن منو -->
+      <button id="menu-toggle" class="fixed  right-4 z-50 text-[#E10A0A] p-3 lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+
+
+      <!-- start logo and search -->
+      <div class=" flex gap-6 !w-full pr-12">
+        <img class="lg:w-[150px] hidden lg:block lg:h-[40px]" src="./media/svgmenu/dgland main logo .svg" alt="" />
+        <div
+          class="z-10 pr-1 flex  py-[2px] lg:h-full  lg:w-[50%]  w-full flex-row items-center gap-[6px] rounded-[22px] bg-[#f6f5f5]">
+          <div class=" flex h-[36px] w-[36px] items-center justify-center rounded-full bg-white">
+            <img src="./media/svgmenu/svgexport-1.svg" alt="" />
+
+          </div>
+          <img class="lg:hidden block" src="./media/svgmenu/svgexport-2 (1).svg" alt="">
+          <input class="hidden lg:block z-10 bg-[#f6f5f5] bg-transparent  pb-1 h-[20px]" placeholder="جستجو ... "
+            value="" />
+
+        </div>
+      </div>
+      <!-- end logo and search -->
+
+      <!-- start cart kharid -->
+      <div class="lg:block hidden bg-blac lg:flex h-[42px] ml-28">
+        <div class="flex h-full w-[135px] cursor-pointer items-center gap-[4px]">
+          <div
+            class="h-full pl-3 flex gap-1 items-center justify-center w-auto rounded-[10px] border border-surface-normal p-2">
+            <img class="rotate-180" src="./media/svgmenu/svgexport-2.svg " alt="" />
+            <span
+              class="text-center flex items-center text-[#e10a0a] justify-center font-iranyekan-bold text-[14px]">ورود |
+              ثبت‌نام</span>
+          </div>
+        </div>
+        <div
+          class="h-[41px] flex gap-1 items-center justify-center w-[41px] rounded-[10px] border border-surface-normal p-2">
+          <img class="" src="./media/svgmenu/cart.svg " alt="" />
+        </div>
+      </div>
+      <!-- end cart kharid -->
+    </div>
+    <!-- start menuuuuu -->
+    <nav class="lg:block hidden lg:flex lg:h-[72px] w-full flex-row items-center justify-between px-4  ">
+      <ul class="flex  flex-nowrap  mx-auto  mr-2  justify-between gap-4 lg:gap-6 items-center ">
+
+        <li
+          class="relative !w-auto group flex items-center pr-28   justify-center gap-2 whitespace-nowrap cursor-pointer">
+          <img class="text-stone-500" src="./media/svgmenu/svgexport-3.svg" alt="دسته‌بندی">
+          <p
+            class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] cursor-pointer text-sm md:text-base">
+            دسته‌بندی کالاها
+          </p>
+          <!-- Submenu -->
+          <div
+            class="absolute   z-10 hidden group-hover:flex flex-wrap overflow-auto gap-y-2 gap-x-12 bg-white p-4  top-full ">
+            <!-- Example Item -->
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/1.png" alt="">
+                <a href="./index2.html"
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  موبایل
+                </a>
+
+              </div>
+
+            </div>
+            <!-- Add more items here -->
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/2.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لوازم جانبی موبایل
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/3.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  هدفون و هندزفری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/4.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لپتاپ و تبلت
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/5.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  کامپیوتر
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/6.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  ساعت هوشمند
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/7.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  گیمینگ
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/8.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  صوتی و تصویری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/9.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  تجهیزات ذخیره‌سازی
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+        <!-- سایر آیتم‌ها -->
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-5.svg" alt="خرید اقساطی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            خرید اقساطی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-6.svg" alt="مجله دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            مجله دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-7.svg" alt="پیشنهاد طلایی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            پیشنهاد طلایی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-8.svg" alt="شعب دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            شعب دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2  cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-9.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            نمایندگی دی‌جی‌لند بگیرید!
+          </p>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- end menuuuuu -->
+  </section>
+
+  <!-- end menu desctop -->
+
+  <!-- end menu -->
+
+
+
+
+  <!-- start safhe3 -->
+  <div
+    class=" w-[83%] lg:h-[40px] truncate h-[50px] border-b-2 lg:mt-[190px] mx-auto font-iranyekan-bold flex items-center lg:text-[14px] text-[12px]">
+    <p class=" h-full flex items-center px-3">
+      <span class="text-[#E10A0A]">دی‌جی‌لند</span> / گوشی موبایل / گوشی
+      موبایل سامسونگ/ گوشی موبایل سامسونگ مدل Galaxy S24 Ultra 5G ظرفیت 256
+      گیگابایت و رم 12 گیگابایت- ویتنام
+    </p>
+  </div>
+  <!--top of page3-->
+
+  <section class="index3 w-[94%] flex lg:flex-row flex-col mx-auto justify-between container">
+    <section class="gallery lg:pb-36 lg:w-[30%] w-[90%] !relative mx-auto lg:mx-0">
+      <div style="
+      " class="swiper mySwiper9  !relative">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide cursor-pointer">
+            <img src="./media/page3-rast/1.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/2.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/3.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/4.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/5.jpeg" />
+          </div>
+
+        </div>
+        <div
+          class="swiper-button-next !text-[#E10A0A] xl:!translate-y-[-30px] !translate-y-0 !scale-50 !hidden lg:!block">
+        </div>
+        <div
+          class="swiper-button-prev !text-[#E10A0A] xl:!translate-y-[-30px] !translate-y-0 !scale-50 !hidden lg:!block">
+        </div>
+        <div class="swiper-pagination !z-50"></div>
+      </div>
+
+      <div class="swiper mySwiper10 !relative w-full !hidden lg:!block">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide cursor-pointer">
+            <img src="./media/page3-rast/1.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/2.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/3.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/4.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./media/page3-rast/5.jpeg" />
+          </div>
+        </div>
+        <div
+          class="click-gallery absolute top-2 xl:right-[100%] lg:right-[72%] w-[100px] flex items-center justify-center h-[70px] bg-white z-[999] cursor-pointer">
+          <div class="w-[70px] h-[70px] border rounded-lg bg-white flex cursor-pointer">
+            <img src="./media/page3-rast/1.jpeg" alt="" class="blur-sm" />
+            <i class="fa-solid fa-ellipsis fa-2xl translate-x-12 translate-y-8"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" lg:w-[38%] w-[90%] mx-auto mt-6 border-b lg:border-none pb-4 border-dashed lg:pb-0">
+      <div class=" flex justify-between text-[#A4A4A4]">
+        <div>
+          <p class="font-iranyekan-bold">برند: سامسونگ</p>
+        </div>
+        <div class="flex gap-2">
+          <img src="./media/svg3/svgexport-12.svg" alt="" />
+          <img src="./media/svg3/svgexport-11.svg" alt="" />
+          <img src="./media/svg3/svgexport-10.svg" alt="" />
+        </div>
+      </div>
+      <div class=" mt-5">
+        <p class="font-iranyekan-bold text-[15px]">
+          گوشی موبایل سامسونگ مدل Galaxy S24 Ultra 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام
+        </p>
+        <p class="text-[#AAAAAA] font-iranyekan-bold text-[12px] mt-1">
+          Samsung Galaxy S24 Ultra 5G Dual SIM 256/12GBRam Mobile Phone -Vietnam
+        </p>
+      </div>
+      <div class="mt-4">
+        <div class="flex gap-12">
+          <div class="flex">
+            <img src="./media/svg3/svgexport-13.svg" alt="" />
+            <img src="./media/svg3/svgexport-13.svg" alt="" />
+            <img src="./media/svg3/svgexport-13.svg" alt="" />
+            <img src="./media/svg3/svgexport-13.svg" alt="" />
+            <img src="./media/svg3/svgexport-13.svg" alt="" />
+          </div>
+          <div class="flex  items-center gap-1">
+
+            <p class="font-iranyekan-bold text-[#1CB65D] text-[14px]">موجود</p>
+            <img src="./media/svg3/svgexport-14.svg" alt="" />
+          </div>
+        </div>
+        <div>
+          <p class="text-[#E10A0A] font-iranyekan-bold text-[28px]">
+            62,199,000 <span class="font-iranyekan-bold text-[18px]">تومان</span>
+          </p>
+        </div>
+      </div>
+      <div class=" mt-6 flex flex-col gap-2">
+        <div class="font-iranyekan-bold flex gap-2 text-[14px]">
+          <p class="text-[#959595] font-iranyekan-bold">تعداد سیم کارت :</p>
+          <p>دو سیم کارت</p>
+        </div>
+        <div class="font-iranyekan-bold flex gap-2 text-[14px]">
+          <p class="text-[#959595] font-iranyekan-bold">فناوری صفحه نمایش :</p>
+          <p>OLED</p>
+        </div>
+        <div class="flex font-iranyekan-bold flex gap-2 text-[14px]">
+          <p class="text-[#959595] font-iranyekan-bold">نوع پردازنده :</p>
+          <p>snapdragon</p>
+        </div>
+        <div class="flex font-iranyekan-bold flex gap-2 text-[14px]">
+          <p class="text-[#959595] font-iranyekan-bold">ظرفیت حافظه RAM :</p>
+          <p>4 گیگابایت</p>
+        </div>
+        <div class="flex font-iranyekan-bold flex gap-2 text-[14px]">
+          <p class="text-[#959595] font-iranyekan-bold">شبکه های ارتباطی :</p>
+          <p>5G</p>
+        </div>
+      </div>
+      <div class=" mt-5">
+        <p class="font-iranyekan-bold mb-2" id="rng-name">رنگ: مشکی</p>
+        <div class="flex gap-1">
+          <div
+            class="bord w-[36px] h-[36px] p-[2px] bg-white rounded-full flex items-center justify-center border-[2px] border-transparent borderr">
+            <div class=" w-full h-full bg-black rounded-full cursor-pointer"></div>
+            <p class="rng-name hidden">رنگ: مشکی</p>
+          </div>
+          <div
+            class="bord w-[36px] h-[36px] p-[2px] bg-white rounded-full flex items-center justify-center border-[2px] border-transparent">
+            <div class=" w-full h-full bg-gray-500 rounded-full cursor-pointer"></div>
+            <p class="rng-name hidden">رنگ: خاکستری</p>
+          </div>
+
+        </div>
+        <div class=" mt-8 text-gray-700">
+          <p class="font-iranyekan-bold">گارانتی:</p>
+          <div class="lg:!w-[239px] w-full border cursor-pointer border-[#E10A0A] rounded-lg flex p-2 gap-1 mt-[5px]">
+            <div>
+              <img src="./media/svg3/svgexport-23.svg" class="!w-[20px]" alt="" />
+            </div>
+            <div class="flex flex-col font-iranyekan-bold gap-[5px]">
+              <p class="text-[14px]">شرکتی معتبر</p>
+              <p class="text-[12px] text-gray-600">
+                گارانتی 18ماه همراه با رجیستری
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 mt-4">
+          <img src="./media/svgexport-15.svg" alt="">
+          <p>
+            گارانتی سامان
+          </p>
+        </div>
+
+
+
+        <div class="lg:!w-full w-full border cursor-pointer hover:border-[#E10A0A] rounded-lg flex p-2 gap-1 mt-[5px]">
+          <div class="flex flex-col font-iranyekan-bold gap-[5px]">
+            <p class="text-[16px] font-iranyekan-bold">خرید قسطی</p>
+            <p class="text-[14px] text-gray-600">
+              به اعتبار دی‌جی لند بدون ضامن قسطی خرید کن !
+            </p>
+            <div class="flex gap-2">
+              <img class="w-[30px] h-[30px]" src="./media/page3-rast/tara.png" alt="">
+              <img class="w-[30px] h-[30px]" src="./media/page3-rast/paypal.png" alt="">
+              <img class="w-[30px] h-[30px]" src="./media/page3-rast/azki'.webp" alt="">
+
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <section class=" lg:w-[27%] w-[90%] mx-auto lg:mt-4 mt-8">
+      <div class="w-full h-[56px] rounded-lg bg-[#F6F5F5] flex items-center pr-3 gap-3 font-iranyekan-bold text-[12px]">
+        <img src="./media/svg3/svgexport-19.svg" alt="" />
+        <p>کالا در انبار موجود و آماده ارسال است.</p>
+      </div>
+      <div class="w-full border border-dashed rounded-xl mt-4 text-[14px] p-4 pb-7 items-center text-[#4f4f4f]">
+        <div class="flex font-iranyekan-bold gap-2">
+          <img src="./media/svg3/svgexport-20.svg" alt="" />
+          <p>محصولات مرتبط</p>
+        </div>
+        <div class=" w-full mx-auto mt-6 flex flex-col">
+          <div class="flex items-center w-full pr-1 cursor-pointer hover:bg-gray-100 border-b pb-2 gap-3 mt-1 h-[80px]">
+            <img src="./media/page3-rast/کاور.gif" class="w-[56px] h-[56px] translate-y-1" alt="" />
+            <div class="translate-y-1">
+              <p class="font-iranyekan-bold line-clamp-1 text-[12px]">
+                کاور محافظ لنز دار هوشمند سامسونگ مدل Smart View Wallet Case مناسب برای گوشی موبایل Galaxy S24 Ultra
+              </p>
+              <h1 class="font-iranyekan-bold text-[#E10A0A]">
+                2,560,000 تومان
+              </h1>
+            </div>
+          </div>
+          <div class="flex items-center w-full pr-1 cursor-pointer hover:bg-gray-100 border-b pb-2 gap-3 mt-1 h-[80px]">
+            <img src="./media/page3-rast/هدفون.jpeg" class="w-[56px] h-[56px] translate-y-1" alt="" />
+            <div class="translate-y-1">
+              <p class="font-iranyekan-bold line-clamp-1 text-[12px]">
+                هدفون بلوتوثی سامسونگ مدل Galaxy Buds 3 Pro </p>
+              <h1 class="font-iranyekan-bold text-[#E10A0A]">
+                10,227,000 تومان
+              </h1>
+            </div>
+          </div>
+          <div class="flex items-center w-full pr-1 cursor-pointer hover:bg-gray-100 border-b pb-2 gap-3 mt-1 h-[80px]">
+            <img src="./media/page3-rast/شارژر.jpeg" class="w-[56px] h-[56px] translate-y-1" alt="" />
+            <div class="translate-y-1">
+              <p class="font-iranyekan-bold line-clamp-1 text-[12px]">
+                شارژر دیواری 45 وات (3پین) سامسونگ مدل EP-T4510 به همراه کابل Type-c به Type-c </p>
+              <h1 class="font-iranyekan-bold text-[#E10A0A]">
+                1,210,000 تومان
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full h-[56px] rounded-lg my-4 bg-[#EFFCF5] flex items-center pr-3 gap-3 font-iranyekan-bold text-[12px]">
+        <img src="./media/svg3/svgexport-21.svg" alt="" />
+        <p>ضمانت اصالت و سلامت فیزیکی کالا</p>
+      </div>
+
+      <div
+        class="w-full py-4 rounded-lg bg-[#F6F5F5] flex items-center pl-8 pr-3 gap-3 font-iranyekan-bold text-[12px]">
+        <img src="./media/svg3/svgexport-22.svg" alt="" />
+        <p class="text-justify">
+          امکان برگشت کالا به دلیل انصراف از خرید در دسته بندی گوشی موبایل
+          تنها در صورتی مورد قبول است که پلمپ کالا باز نشده باشد.
+        </p>
+      </div>
+    </section>
+  </section>
+  <section class=" hidden lg:block">
+    <div class=" mt-6 flex gap-4 w-full !h-[44px] pr-[31%]">
+      <div
+        class=" cursor-pointer flex justify-center items-center w-[310px] h-[44px] bg-[#E10A0A] hover:bg-[#a60c0c] rounded-xl">
+        <p class="font-iranyekan-bold text-white" id="changeText">
+          افزودن به سبد خرید
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class=" w-[100%] !h-full py-4 bg-[#00000091] fixed overflow-hidden top-0 bottom-0 z-[1000] hidden">
+    <div class="w-[800px] h-fit bg-white m-auto rounded-2xl rounded-ee-none shadow-2xl flex flex-col" id="pariya">
+      <div class=" flex pr-5 items-center h-[60px] !w-[100%] gap-3">
+        <i class="fa-solid fa-x fa-lg cursor-pointer" id="x-mark"></i>
+        <div class=" border-b font-iranyekan-bold w-[95%] py-3 pr-6">
+          <p>
+            گوشی موبایل سامسونگ مدل Galaxy S23 Ultra 5G ظرفیت 256 گیگابایت و
+            رم 12 گیگابایت- ویتنام
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- end safhe3 -->
+
+  <!-- start mahboob mobile -->
+
+  <section class="w-full lg:h-[491px] mt-[15px] h-[360px] swiper2">
+    <div class="flex justify-center gap-3 mt-5">
+      <img class="!w-[30px] lg:!w-[50px] mt-10" src="./media/svgmenu/svgexport-12.svg" alt="" />
+      <span
+        class="font-iranyekan-bold lg:text-[22px] text-[18px] flex justify-center items-center mt-8 lg:mt-10 !text-[#6c6c6c]">محصولات
+        مشابه
+      </span>
+      <img class="!w-[30px] lg:!w-[50px] mt-10" src="./media/svgmenu/svgexport-12.svg" alt="" />
+    </div>
+    <div class=" lg:!w-[99%] mx-auto lg:!h-[470px]   !h-[342px] bg-[#F6F5F5]">
+      <div class="swiper mySwiper4  mt-10 lg:!h-[470px] lg:container lg:!w-[80%] !h-[342px] bg-[#F6F5F5]">
+        <div class="swiper-wrapper container flex justify-between items-center ">
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/1.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدست سونی مدل PULSE 3D مخصوص پلی استیشن 4 و 5گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                    ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A
+
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%5</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      44.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      43.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/2.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدست سونی مدل PULSE 3D مخصوص پلی استیشن 4 و 5گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت
+                    128 گیگابایت و رم 6 گیگابایت - ویتنام
+
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%7</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      14.0.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      13.299.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/3.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل شیائومی مدل Poco X6 5G دو سیمکارت با ظرفیت 512 گیگابایت و 12 گیگابایت رم
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      18.500.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      17.800.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/4.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%5</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      23.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      21.799.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/5.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%4</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      30.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      29.300.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/6.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      4.970.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/7.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      4.970.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end mahboob mobile -->
+
+  <!-- start moshakhasat , nazarat -->
+  <div class="container mt-28 !w-[80%] justify-center items-center flex h-[64px] mx-auto ">
+    <span class="flex gap-5">
+      <p class="font-iranyekan-bold text-[#E10A0A] cursor-pointer">
+        مشخصات‌فنی
+      </p>
+      <p>
+        |
+      </p>
+      <p class="font-iranyekan-bold text-[#808080] cursor-pointer hover:text-[#E10A0A]">
+        دیدگاه کاربران
+      </p>
+      <p>
+        |
+      </p>
+      <p class="font-iranyekan-bold text-[#808080] cursor-pointer hover:text-[#E10A0A]">
+        پرسش‌وپاسخ
+      </p>
+    </span>
+  </div>
+  <!-- end moshakhasat , nazarat -->
+
+  <!-- start bishtar s24 -->
+
+  <!-- start bishtar -->
+  <div class="container flex flex-col rounded-[16px] !w-[80%] mx-auto  overflow-hidden p-6">
+    <div>
+      <div class="flex gap-1">
+        <p class="text-[#E10A0A] font-iranyekan-extrabold mb-8 ">|</p>
+        <h2 class="font-iranyekan-bold text-[13px] lg:text-[18px] text-[#505060] ">
+          نقد و بررسی احتمالی
+        </h2>
+      </div>
+      <h3 class="font-iranyekan-bold text-[25px] lg:text-26px]  mb-4">
+        نقد و بررسی گلکسی S24 Ultra سامسونگ
+      </h3>
+
+
+
+      <p id="text"
+        class="text-[12px] font-iranyekan-bold lg:text-[12px] text-gray-600 overflow-hidden transition-all duration-300 mb-6"
+        style="max-height: 250px">
+        <img src="./media/moshakhasatfani/s24.jpg" alt="">
+        خرید گوشی و خرید اینترنتی گوشی در این روزها، می‌تواند زمان زیادی از
+        شما بگیرد. در هنگام خرید گوشی موبایل باید به نکات متعددی مانند خرید
+        گوشی موبایل، امکانات گوشی موبایل، ضمانت گوشی موبایل و رجیستری گوشی
+        موبایل در کنار اصالت فروشگاه موبایل دقت کرد. مهم‌‎ترین عامل اثرگذار در
+        تصمیم گیری ما، قیمت روز گوشی موبایل می‌باشد. شما می‌توانید از طریق
+        خرید اینترنتی گوشی از فروشگاه اینترنتی موبایل یا خرید حضوری از شعب
+        دی‌جی‌لند اقدام به خرید گوشی سامسونگ، خرید گوشی شیائومی و سایر برندها
+        کنید.
+        <br />
+        فروشگاه اینترنتی موبایل خرید گوشی موبایل از فروشگاه اینترنتی موبایل،
+        یکی از سریع‌ترین راه‌ها به شمار می‌آید. در زمان خرید اینترنتی گوشی
+        موبایل، باید به نکاتی مانند نشان نماد الکترونیکی، پروتکل SSL و درگاه
+        امن پرداخت فروشگاه اینترنتی توجه کنید. قبل از خرید موبایل، نظرات
+        کاربران را بررسی کنید. این نظرات می‌تواند به شما درک بهتری از تجربه
+        خرید دیگران و کیفیت سرویس‌دهی آن فروشگاه اینترنتی بدهد. مورد بعدی که
+        می‌بایست به آن دقت شود اصالت کالای دیجیتال است.
+        <br />
+        خرید اقساطی گوشی این‌ روزها خرید اقساطی گوشی به دلیل نوسان قیمت گوشی
+        موبایل بهترین راه خرید گوشی محسوب می‌شود. دی‌جی‌لند با فراهم کردن
+        امکان خرید قسطی گوشی موبایل، خرید قسطی لپ تاپ و سایر کالاهای دیجیتال،
+        شرایطی آسان را برای خرید جدیدترین محصولات دیجیتال فراهم کرده است. شما
+        می‌توانید به دو روش حضوری و آنلاین گوشی مورد نظر خود را به صورت قسطی
+        خریداری نمایید. در روش آنلاین کافیست به صفحه ویژه خرید قسطی کالای
+        دیجیتال دی‌جی‌لند و برای خرید حضوری گوشی موبایل کافیست به یکی از شعب
+        دی‌جی‌لند مراجعه کنید تا خرید خود را در سریعترین زمان ممکن و با شرایطی
+        آسان انجام دهید.
+        <br />
+
+        خرید گوشی اپل شرکت اپل با ورود به دنیای تلفن‌های همراه، معنای گوشی
+        هوشمند را برای همه تعریف کرد. از سال ۲۰۰۷ که اولین آیفون معرفی شد، هر
+        ساله کمپانی‌های بزرگ منتظر رونمایی آیفون جدید هستند تا قابلیت‌های جدید
+        این گوشی را بررسی و مدلی قابل رقابتی را به بازار عرضه کنند. قیمت گوشی
+        آیفون همیشه از سایر برندها بالاتر بوده اما طرفدارانش معمولا تا سال‌ها
+        به آن وفادار می‌مانند. از لیست قیمت آیفون در فروشگاه اینترنتی
+        دی‌جی‌لند می‌توانید انواع گوشی آیفون از مدل‌های آیفون ۱۳ ، آیفون 13
+        پرو ، آیفون ۱۳ پرومکس گرفته تا آیفون SE را مشاهده کنید و با خیالی راحت
+        از رجیستری آیفون و همینطور ۱۸ ماه ضمانت، آیفون مورد نظر خود را سفارش
+        دهید.
+        <br />
+        خرید گوشی هواوی هواوی در طول سال‌های فعالیت خود ثابت کرده است که یکی
+        از نوآوران عرصه تکنولوژی به حساب می‌آید. کاربران گوشی های هواوی
+        می‌دانند که این برند حساسیت ویژه‌ای روی دوربین گوشی های خود دارد. فرقی
+        نمی‌کند شما گوشی اقتصادی هواوی را داشته باشید یا گوشی میان رده هوآوی
+        یا گوشی پرچمدار هواوی، همیشه می‌توانید از دوربین باکیفیت گوشی خود لذت
+        ببرید. قیمت گوشی هواوی را همیشه می‌توانید از صفحه گوشی هواوی در سایت
+        دی‌جی‌لند مشاهده و با ضمانت معتبر بخرید.
+        <br />
+        فروشگاه موبایل، کالای دیجیتال و لوازم جانبی دی‌جی‌لند فروشگاه اینترنتی
+        دی‌جی‌لند، اولین و بزرگترین فروشگاه اینترنتی و حضوری کالای دیجیتال در
+        ایران است. از خرید گوشی موبایل یا خرید لپ ‌تاپ تا خرید اسپیکر یا خرید
+        ساعت هوشمند را می‌توانید از فروشگاه اینترنتی دی‌جی‌لند انجام دهید.
+        دی‌جی‌لند علاوه بر فروشگاه اینترنتی، امکان خرید حضوری از شعب خود (۱۰
+        شعبه در کشور) را فراهم کرده است. شما می‌توانید از یکی از دو روش ذکر
+        شده انواع گوشی‌های سامسونگ، شیائومی، اپل، نوکیا، انواع تبلت، انواع
+        لپتاپ، انواع هدفون و هندزفری ، انواع ساعت هوشمند ، انواع تلویزیون ،
+        انواع اسپیکر و ساندبار ، گجت‌های هوشمند و سایر کالاهای دیجیتال را با
+        بهترین قیمت و معتبر ترین گارانتی خریداری کنید. همچنین اگر قصد خرید
+        اینترنتی را دارید می‌توانید تمامی کالاهای دیجیتال را در هر ساعتی از
+        شبانه‌روز و با ارسال سریع از سایت دی‌جی‌لند سفارش دهید.
+      </p>
+    </div>
+
+
+    <button id="toggleButton"
+      class="flex w-32 h-16 font-iranyekan-bold items-center justify-center gap-1 text-[#505060] mt-auto">
+      مشاهده بیشتر
+      <img class="rotate-180" src="./media/svg3/svgexport-24.svg" alt="فلش" />
+    </button>
+  </div>
+
+
+  <!-- end moshakhasat , nazarat -->
+
+  <!-- start bishtar s24 -->
+
+  <!-- start bishtar -->
+  <div class="container flex flex-col rounded-[16px] !w-[80%] mx-auto  overflow-hidden p-6">
+    <div>
+      <div class="flex gap-1">
+        <p class="text-[#E10A0A] font-iranyekan-extrabold mb-8 ">|</p>
+        <h2 class="font-iranyekan-bold text-[13px] lg:text-[18px] text-[#505060]  ">
+          مشخصات فنی
+        </h2>
+      </div>
+
+      <p id="text1"
+        class="text-[12px] font-iranyekan-bold lg:text-[12px] text-gray-600 overflow-hidden transition-all duration-300 mb-6"
+        style="max-height: 50px">
+      <div class="overflow-x-auto">
+        <table class="min-w-full  border-gray-300">
+
+          <tr class="justify-center flex">
+            <th class=" text-[14px]  font-iranyekan-bold px- py-2 text-left  ">مشخصات بدنه موبایل
+            </th>
+
+          </tr>
+
+          <tbody>
+            <tr class="">
+              <td
+                class="border bg-[#f6f5f5] justify-center flex font-iranyekan-bold lg:text-[14px] text-[12px]  py-2 text-gray-600">
+                ابعاد</td>
+              <td class="border border-gray-300 px-4 py-2">
+                <p class="text-gray-600 text-[12px] font-iranyekan-bold">
+                  162.5* 79*8.6 میلی متر
+
+                </p>
+              </td>
+            </tr>
+            <tr class="">
+              <td
+                class="border bg-[#f6f5f5] justify-center flex font-iranyekan-bold lg:text-[14px] text-[12px]  py-2 text-gray-600">
+                وزن</td>
+              <td class="border border-gray-300 px-4 py-2">
+                <p class="text-gray-600 text-[12px] font-iranyekan-bold">
+                  232گرم
+                </p>
+              </td>
+            </tr>
+            <tr class="">
+              <td
+                class="border bg-[#f6f5f5] justify-center flex font-iranyekan-bold lg:text-[14px] text-[12px]  py-2 text-gray-600">
+                تعداد سیم کارت
+
+              </td>
+              <td class="border border-gray-300 px-4 py-2">
+                <p class="text-gray-600 text-[12px] font-iranyekan-bold">
+                  دو سیم کارت
+
+                </p>
+              </td>
+            </tr>
+            <tr class="">
+              <td
+                class="border bg-[#f6f5f5] justify-center flex font-iranyekan-bold lg:text-[14px] text-[12px]  py-2 text-gray-600">
+                جنس بدنه
+              </td>
+              <td class="border border-gray-300 px-4 py-2">
+                <p class="text-gray-600 text-[12px] font-iranyekan-bold">
+                  قاب جلو و پشت شیشه ای (گوریلاگلس ویکتوس 3)، فریم تیتانیوم
+
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+
+    <div class="container fle flex-col rounded-[16px] !w-[80%] mx-auto  overflow-hidden p-6">
+      <div>
+        <div class="flex gap-1">
+          <p class="text-[#E10A0A] font-iranyekan-extrabold mb-8 ">|</p>
+          <h2 class="font-iranyekan-bold text-[13px] lg:text-[18px] text-[#505060]  ">
+            دیدگاه‌کاربران
+          </h2>
+        </div>
+
+        <p id="text1"
+          class="text-[12px] font-iranyekan-bold lg:text-[12px] text-gray-600 overflow-hidden transition-all duration-300 "
+          style="max-height: 50px">
+        <div class="overflow-x-auto">
+          <div class="bg-gray-100 p-6">
+            <div class="flex flex-col space-y-4">
+              <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-iranyekan-bold">ali</h3>
+                <p class="text-gray-700 font-iranyekan-bold text-[12px]">سلام ، روز بخیر. گارانتی این گوشی مربوط به کدام
+                  شرکت است؟
+
+                  پاسخ :
+                  سلام، اگر داخل فیلد گارانتی اسم شرکت گارانتی کننده قید شده باشد همان براتون ارسال میشود و اگر فقط زده
+                  باشه گارانتی شرکتی معتبر یعنی به صورت رندوم ارسال میشود و برای شرکت های معتبر مثل دیجی سرویس، داریا،
+                  مرآت، سیتلکام، سیب طلایی و... میباشد.
+                  آیا این پاسخ مفید بود؟
+                </p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-iranyekan-bold">amir</h3>
+                <p class="text-gray-700 font-iranyekan-bold text-[12px]">
+                  با سلام . آیا کابل شارژ همراه گوشی هست ؟
+
+                  پاسخ :
+                  سلام، بله کابل داخل پک دستگاه میباشد.
+                  آیا این پاسخ مفید بود؟
+                </p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-iranyekan-bold">pouya</h3>
+                <p class="text-gray-700 font-iranyekan-bold text-[12px]">
+                  با سلام.برای سفارش باید همه پول را واریز کنم یا پول را در هنگام تحویل جلوی درب خانه میشود واریز کرد؟
+                  هم در تهران هم در شهرستان منظورم هست
+
+                  پاسخ :
+                  سلام، در حال حاضر پرداخت درب محل نداریم و باید مبلغ کالا کامل پرداخت شود تا سفارش ثبت و کالا رزرو شود
+                  و برایتان در پروسه ارسال قرار گیرد.
+                  آیا این پاسخ مفید بود؟
+                </p>
+              </div>
+              <form class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-lg font-bold mb-2">ثبت نظرات</h3>
+                <div class="mb-4">
+                  <label class="block font-iranyekan-bold text-gray-700 font-bold mb-2" for="name">
+                    نام و نام خانوادگی
+                  </label>
+                  <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="mb-4">
+                  <label class="block font-iranSansBold text-gray-700 font-bold mb-2" for="comment">
+                    پیشنهاد:
+                  </label>
+                  <textarea
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="comment" rows="3" placeholder="Enter your comment"></textarea>
+                </div>
+                <button
+                  class=" bg-[#E10A0A]  font-iranyekan-bold text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  type="submit">
+                  ثبت
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- end bishtar -->
+    <!-- end bishtar s24 -->
+    <!-- start footer -->
+    <div class="lg:block hidden mt-32 !w-[80%]  mx-auto  container flex flex-col">
+      <div class="">
+        <img src="./media/footer/dgland_footer_logo.svg" alt="" />
+      </div>
+
+      <div class="flex justify-between h-auto w-auto">
+        <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+          <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">درباره‌ی دی‌جی‌لند</p>
+          <p class="text-gray-500 font-iranyekan-bold">تماس با ما</p>
+          <p class="text-gray-500 font-iranyekan-bold"> درباره‌ی ما </p>
+          <p class="text-gray-500 font-iranyekan-bold">مجله‌ی دی‌جی‌لند </p>
+          <p class="text-gray-500 font-iranyekan-bold">شعب</p>
+          <p class="text-gray-500 font-iranyekan-bold">شرایط و قوانین</p>
+          <p class="text-gray-500 font-iranyekan-bold">خرید اقساطی</p>
+        </div>
+
+        <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+          <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">خدمات مشتریان</p>
+          <p class="text-gray-500 font-iranyekan-bold">پرسش‌های متداول</p>
+          <p class="text-gray-500 font-iranyekan-bold"> راهنمای خرید</p>
+          <p class="text-gray-500 font-iranyekan-bold">شرایط بازگشت کالا</p>
+          <p class="text-gray-500 font-iranyekan-bold">ثبت شکایات </p>
+          <p class="text-gray-500 font-iranyekan-bold">حریم خصوصی</p>
+        </div>
+
+        <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+          <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">دسته‌بندی‌های پربازدید</p>
+          <p class="text-gray-500 font-iranyekan-bold">گوشی موبایل</p>
+          <p class="text-gray-500 font-iranyekan-bold"> لپتاب</p>
+          <p class="text-gray-500 font-iranyekan-bold">هدفون و هندزفری</p>
+          <p class="text-gray-500 font-iranyekan-bold">اسپیکر و بلندگو</p>
+          <p class="text-gray-500 font-iranyekan-bold">ساعت هوشمند</p>
+          <p class="text-gray-500 font-iranyekan-bold">تجهیزات ذخیره سازی</p>
+          <p class="text-gray-500 font-iranyekan-bold">شارژر و پاوربانک</p>
+
+        </div>
+
+        <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+          <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">ساعت پاسخگویی</p>
+          <p class="text-gray-500 font-iranyekan-bold">۷ روز هفته از ساعت ۹ الی ۲۰</p>
+          <div class=" flex-col flex  gap-2 mt-1">
+            <div class="mohtava flex gap-1 cursor-pointer">
+              <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+              <div class="call flex flex-col">
+                <p class="font-yekExtra text-[12px] text-[#878787]">
+                  تلفن امور مشتریان
+                </p>
+                <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+              </div>
+            </div>
+            <div class="mohtava flex gap-1 cursor-pointer">
+              <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+              <div class="call flex flex-col">
+                <p class="font-yekExtra text-[12px] text-[#878787]">
+                  روابط عمومی
+                </p>
+                <p class="font-yekExtra text-[12px] text-[#878787]">
+                  Info@dgland.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class=" flex flex-col">
+          <h1 class="font-iranyekan-bold text-[#505060] text-[14px] my-4">
+            ما را دنبال کنید
+          </h1>
+          <div class="pic flex gap-5 cursor-pointer">
+            <img src="./media/svgmenu/svgexport-18.svg" alt="" />
+            <img src="./media/svgmenu/svgexport-19.svg" alt="" />
+            <img src="./media/svgmenu/svgexport-20.svg" alt="" />
+            <img src="./media/svgmenu/svgexport-21.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="hidden lg:block   w-[80%] mx-auto mt-2 lg:flex">
+    <div class=" w-[50%]">
+      <h1 class="font-iranyekan-bold mb-2 text-[#505060]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="text-[11px]  font-iranyekan-bold text-[#878787]">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه
+        به رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و
+        نیاز به کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی
+        خدمت‌رسانی و تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای
+        دیجیتال ، لوازم خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:flex w-[50%] flex justify-center gap-4">
+      <img src="./media/footer/2.png" alt="" class="!w-[80px] !object-contain" />
+      <img src="./media/footer/1.webp" alt="" class="!w-[80px] !object-contain" />
+    </div>
+  </div>
+  </div>
+
+  <div class="  mx-auto lg:hidden pb-6 w-[92%] pt-2">
+    <div class="titr w-full container mx-auto text-center">
+      <p class="font-iranyekan-bold text-[16px] text-[#878787]">
+        <span class="font-iranyekan-bold text-[#E10A0A]">همراه شما هستیم.</span> با ما در ارتباط
+        باشید...
+      </p>
+      <p class="font-iranyekan-bold font-thin mt-3 text-[16px] text-[#797979] mb-2">
+        ۷ روز هفته از ساعت ۹ الی ۲۰
+      </p>
+    </div>
+    <div class="items mx-auto flex justify-center gap-2 mt-7">
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+        <div class="call flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            تلفن امور مشتریان
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+        </div>
+      </div>
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+        <div class="call flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            روابط عمومی
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            Info@dgland.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="khdmat flex justify-around container mt-12">
+      <img src="./media/footer/11.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/22.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/3.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/44.png" class="!h-[61.39px]" alt="" />
+    </div>
+    <div class="lg:hidden block mx-auto font-iranyekan-bold mt-10">
+      <h1 class="text-[#525252]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="font-iranyekan-bold text-[11px] text-zinc-500">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه به
+        رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و نیاز به
+        کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی خدمت‌رسانی و
+        تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای دیجیتال ، لوازم
+        خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:hidden block flex w-[95%] mx-auto justify-center mt-2 gap-5">
+      <img src="./media/footer/2.png" class="!w-[80px] !object-contain" alt="" />
+      <img src="./media/footer/1.webp" class="!w-[80px] !object-contain" alt="" />
+    </div>
+  </div>
+  </section>
+
+
+  <!-- start footer -->
+
+  <!-- start copyright -->
+  <div class="hidden lg:block mt-[23px] w-full border-t px-[10px] ">
+    <div class="container mx-auto flex !w-[80%] ">
+      <div class="flex w-full flex-row items-center justify-between py-[10px] text-[12px] font-light">
+        <div>
+          <p class="text-[#878787] font-iranyekan-bold"> © کلیه حقوق این وب سایت متعلق به aliomidi است.</p>
+        </div>
+        <div dir="ltr" class="text-[#878787] font-iranyekan-bold">© Copyright 2022 Dgland.com</div>
+      </div>
+    </div>
+  </div>
+
+  <footer
+    class=" bg-white mt-[-100px] !fixed  bottom-0  lg:hidden w-full h-[70px]  flex justify-center items-center scroll-m-2 border-t-2   shadow-sm   z-10  ">
+    <div class="container  bg-[#E10A0A] !w-full justify-between flex rounded-xl  h-[44px] mx-auto">
+      <p class=" flex mx-auto my-auto font-iranyekan-bold text-white">
+        افزودن به سبد خرید
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/script3.js"></script>
+</body>
+
+</html>

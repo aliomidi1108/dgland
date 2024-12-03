@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه اینترنتی دیجی لند</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="/media/favicon/logo.svg" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- start nav2 -->
+  <div class="lg:hidden  block flex !w-full flex-row h-[64px]  items-center justify-between p-4">
+    <img class="w-7 h-7 text-[#6B6B6B] cursor-pointer" src="./media/svgpage2/svgexport-1.svg" alt="">
+    <h1 class=" w-full px-[16px] text-lg  font-iranyekan-bold text-black text-center">گوشی موبایل </h1>
+    <img class="w-[32px] h-[30px] -rotate-90 cursor-pointer" src="./media/svgpage2/svgexport-4.svg" alt="">
+  </div>
+  <!-- end nav2 -->
+
+
+
+  <!--start vasat site -->
+  <section>
+
+  </section>
+  <!--end vasat site -->
+
+
+  <!-- start navar balaye kole safhe -->
+  <section class=" fixed top-0 z-[99] hidden h-fit w-full scroll-m-2 border-b bg-white font-mainFa shadow-sm lg:block">
+    <!-- start banner tabligh -->
+    <img class="object-cover w-full h-10 lg:hidden" src="./media/banner-start/banner responsive.webp" alt="" />
+    <img class="lg:object-cover lg:block hidden lg: lg:w-full lg:h-10" src="./media/banner-start/banner.jpg" alt="" />
+    <!-- end banner tabligh -->
+  </section>
+  <!-- end navar balaye kole safhe -->
+
+  <!-- start menu desctop -->
+  <section id="navbar"
+    class="lg:block hidden fixed top-0  mt-10 scroll-m-2 border-b   shadow-sm lg:block w-full flex-col  bg-white z-10  h-[74px] flex lg:h-[144px]  px-[16px]">
+    <div class="flex w-full pt-6 flex-row items-center gap-3 justify-between bg-blac">
+      <!-- دکمه باز کردن منو -->
+      <button id="menu-toggle" class="fixed  right-4 z-50 text-[#E10A0A] p-3 lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+
+
+      <!-- start logo and search -->
+      <div class=" flex gap-6 !w-full pr-12">
+        <img class="lg:w-[150px] hidden lg:block lg:h-[40px]" src="./media/svgmenu/dgland main logo .svg" alt="" />
+        <div
+          class="z-10 pr-1 flex  py-[2px] lg:h-full  lg:w-[50%]  w-full flex-row items-center gap-[6px] rounded-[22px] bg-[#f6f5f5]">
+          <div class=" flex h-[36px] w-[36px] items-center justify-center rounded-full bg-white">
+            <img src="./media/svgmenu/svgexport-1.svg" alt="" />
+
+          </div>
+          <img class="lg:hidden block" src="./media/svgmenu/svgexport-2 (1).svg" alt="">
+          <input class="hidden lg:block z-10 bg-[#f6f5f5] bg-transparent  pb-1 h-[20px]" placeholder="جستجو ... "
+            value="" />
+
+        </div>
+      </div>
+      <!-- end logo and search -->
+
+      <!-- start cart kharid -->
+      <div class="lg:block hidden bg-blac lg:flex h-[42px] ml-28">
+        <div class="flex h-full w-[135px] cursor-pointer items-center gap-[4px]">
+          <div
+            class="h-full pl-3 flex gap-1 items-center justify-center w-auto rounded-[10px] border border-surface-normal p-2">
+            <img class="rotate-180" src="./media/svgmenu/svgexport-2.svg " alt="" />
+            <span
+              class="text-center flex items-center text-[#e10a0a] justify-center font-iranyekan-bold text-[14px]">ورود |
+              ثبت‌نام</span>
+          </div>
+        </div>
+        <div
+          class="h-[41px] flex gap-1 items-center justify-center w-[41px] rounded-[10px] border border-surface-normal p-2">
+          <img class="" src="./media/svgmenu/cart.svg " alt="" />
+        </div>
+      </div>
+      <!-- end cart kharid -->
+    </div>
+    <!-- start menuuuuu -->
+    <nav class="lg:block hidden lg:flex lg:h-[72px] w-full flex-row items-center justify-between px-4  ">
+      <ul class="flex  flex-nowrap  mx-auto  mr-2  justify-between gap-4 lg:gap-6 items-center ">
+
+        <li
+          class="relative !w-auto group flex items-center pr-28   justify-center gap-2 whitespace-nowrap cursor-pointer">
+          <img class="text-stone-500" src="./media/svgmenu/svgexport-3.svg" alt="دسته‌بندی">
+          <p
+            class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] cursor-pointer text-sm md:text-base">
+            دسته‌بندی کالاها
+          </p>
+          <!-- Submenu -->
+          <div
+            class="absolute   z-10 hidden group-hover:flex flex-wrap overflow-auto gap-y-2 gap-x-12 bg-white p-4  top-full ">
+            <!-- Example Item -->
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/1.png" alt="">
+                <a href="./index2.html"
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  موبایل
+                </a>
+
+              </div>
+
+            </div>
+            <!-- Add more items here -->
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/2.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لوازم جانبی موبایل
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/3.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  هدفون و هندزفری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/4.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لپتاپ و تبلت
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/5.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  کامپیوتر
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/6.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  ساعت هوشمند
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/7.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  گیمینگ
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/8.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  صوتی و تصویری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/9.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  تجهیزات ذخیره‌سازی
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-5.svg" alt="خرید اقساطی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            خرید اقساطی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-6.svg" alt="مجله دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            مجله دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-7.svg" alt="پیشنهاد طلایی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            پیشنهاد طلایی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-8.svg" alt="شعب دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            شعب دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2  cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-9.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            نمایندگی دی‌جی‌لند بگیرید!
+          </p>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- end menuuuuu -->
+  </section>
+
+  <!-- end menu desctop -->
+
+  <!-- end menu -->
+
+  <section class="container mx-auto lg:mt-[190px] lg:w-[90%] pb-[50px]">
+    <h1 class="mt-[35px] w-full text-[16px] font-iranyekan-bold text-[#5c5c5c]">
+      گوشی موبایل
+    </h1>
+
+    <div class="flex flex-col lg:flex-row gap-4 mt-4 ">
+      <!-- فیلترها -->
+      <div class="relative flex-col w-full h-fit  lg:w-1/4 border rounded-xl lg:shadow-none">
+        <div class="flex items-center justify-between px-4 py-2 bg-gray-200 lg:bg-white lg:border-none">
+          <h2 class="font-iranyekan-bold text-[#5c5c5c]">فیلترها</h2>
+          <button class="lg:hidden text-gray-600" onclick="toggleFilter()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="filterBox" class="hidden lg:block lg:relative lg:translate-y- transform">
+
+          <div class="px-4 py-2">
+            <label class="block font-iranyekan-bold !text-[13px] ">
+              <input type="checkbox" class="mr-2 pb-2">
+              فقط کالاهای موجود
+            </label>
+          </div>
+
+          <div class="px-4 py-2  ">
+            <button class="flex items-center justify-between  w-full" onclick="toggleSubMenu('brandMenu')">
+              <h3 class="font-iranyekan-bold text-[12px]">برند</h3>
+              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="brandMenu" class="hidden transform  transition-all duration-300  mt-2 space-y-1">
+              <p
+                class=" !text-[12px] font-iranyekan-bold  text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2  !pl-2 rounded-lg">
+                اپل
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                سامسونگ
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                ناتینگ فون
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                شیائومی
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                هوآوی
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                نوکیا
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                همه برندها
+              </p>
+            </div>
+          </div>
+          <div class="px-4 py-2  ">
+            <button class="flex items-center justify-between  w-full" onclick="toggleSubMenu('rang')">
+              <h3 class="font-iranyekan-bold text-[12px]">رنگ</h3>
+              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="rang" class="hidden transform  transition-all duration-300    mt-2 space-y-1">
+              <div class="flex gap-[294px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">مشکی</p>
+                <span class="w-[14px] h-[14px] bg-black rounded-full"></span>
+              </div>
+              <div class="flex gap-[309px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">ابی</p>
+                <span class="w-[14px] h-[14px] bg-blue-500 rounded-full"></span>
+              </div>
+              <div class="flex gap-[304px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">قرمز</p>
+                <span class="w-[14px] h-[14px] bg-rose-500 rounded-full"></span>
+              </div>
+              <div class="flex gap-[306px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">سبز</p>
+                <span class="w-[14px] h-[14px] bg-green-500 rounded-full"></span>
+              </div>
+              <div class="flex gap-[311px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">زرد</p>
+                <span class="w-[14px] h-[14px] bg-yellow-500 rounded-full"></span>
+              </div>
+              <div class="flex gap-[295px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">بنفش</p>
+                <span class="w-[14px] h-[14px] bg-purple-500 rounded-full"></span>
+              </div>
+              <div class="flex gap-[291px]">
+                <p class="font-iranyekan-bold text-[#969696] text-[12px]">صورتی</p>
+                <span class="w-[14px] h-[14px] bg-pink-500 rounded-full"></span>
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+          <div class="px-4 py-2  ">
+            <button class="flex items-center justify-between  w-full" onclick="toggleSubMenu('sim')">
+              <h3 class="font-iranyekan-bold text-[12px]">تعداد سیمکارت</h3>
+              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="sim" class="hidden transform  transition-all duration-300  mt-2 space-y-1">
+              <p
+                class=" !text-[12px] font-iranyekan-bold  text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2  !pl-2 rounded-lg">
+                تک سیمکارت
+              </p>
+              <p
+                class=" !text-[12px] font-iranyekan-bold text-sm cursor-pointer !text-black pt-1.5 pb-1.5 pr-2 !pl-2 rounded-lg">
+                دو سیمکارت
+              </p>
+
+            </div>
+          </div>
+
+          <div class="px-4 py-2  ">
+            <button class="flex items-center justify-between  w-full" onclick="toggleSubMenu('gh')">
+              <h3 class="font-iranyekan-bold text-[12px]">قیمت</h3>
+              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div id="gh" class="hidden transform  transition-all duration-300  mt-2 space-y-1">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="w-full lg:w-3/4 ">
+        <div class="flex flex-row items-center justify-between w-[90%] px-4">
+          <div class="flex items-center gap-2">
+            <img src="./media/svgpage2/svgexport-13.svg" alt="">
+            <p class="text-[12px] font-iranyekan-bold">مرتب سازی بر اساس:</p>
+            <p class="text-[12px] text-[#E10A0A] font-iranyekan-bold">بیشترین قیمت</p>
+            <p class="text-[12px] text-[#5c5c5c] font-iranyekan-bold">کمترین قیمت</p>
+            <p class="text-[12px] text-[#5c5c5c] font-iranyekan-bold">جدیدترین‌ها</p>
+            <p class="text-[12px] text-[#5c5c5c] font-iranyekan-bold">پرفروش ترین ها</p>
+          </div>
+          <div class="text-[14px] font-iranyekan-bold text-[#5c5c5c]">935 کالا</div>
+        </div>
+
+
+        <div class="grid gap-4 mt-5 grid-cols-[repeat(auto-fit,minmax(220px,1fr))] w-[90%] rounded-xl bg-[#f6f5f5] p-5">
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/2.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="./index3.html" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy S24 Ultra 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت - ویتنام
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                62,299,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/1.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/3.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                43,799,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/4.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                18,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/5.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14گوشی موبایل شیائومی مدل Redmi Note 13 Pro Plus 5G دو سیمکارت با ظرفیت
+                512 گیگابایت و رم 12 گیگابایت
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                23,799,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/6.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/7.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/8.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/9.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/10.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/11.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/12.webp" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/13.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/14.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/15.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/15.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/16.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/17.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/18.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+          <div class="group relative flex flex-col items-center justify-between rounded-[8px] bg-white hover:shadow-lg">
+            <div class="p-4 flex flex-col items-center">
+              <img src="./media/page2/19.jpeg" alt="" class="w-[171px] h-[160px] object-contain">
+              <div
+                class="flex w-[42px] h-[23px] flex-row items-center gap-[2.5px] rounded-[8px] bg-[#F6F5F5] px-[10px]">
+                <div class="h-[10px] w-[10px] rounded-full border bg-black"></div>
+                <div class="h-[10px] w-[10px] rounded-full border bg-blue-600"></div>
+              </div>
+              <a href="#" class="text-[12px] font-iranyekan-bold mt-4 text-[#4a4a4a] leading-5 line-clamp-2">
+                گوشی موبایل سامسونگ مدل Galaxy A14
+              </a>
+              <h3 class="text-[17px] text-[#E10A0A] font-iranyekan-bold mt-2">
+                11,590,000 <span class="text-[13px]">تومان</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center ">
+          <nav aria-label="Page navigation example" class="bg-white" id="counter">
+            <ul class="flex gap-1 items-center -space-x-px text-base justify-center py-5 lg:my-10">
+              <li>
+                <a id="prev" href="#"
+                  class="flex items-center justify-center px-3 h-8 leading-tight text-[#E10A0A] lg:bg-white rounded-lg ">
+                  <span class="sr-only">prev</span>
+                  <svg class="w-3 h-3 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m1 9 4-4-4-4" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#"
+                  class="w-[32px] bg-[#E10A0A] flex items-center justify-center px-3 h-8 leading-tight nav-color text-white font-iranSansBold rounded-lg ">1</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center justify-center px-3 h-8 leading-tight text-[#E10A0A] lg:bg-white font-iranSansBold hover:bg-gray-300 hover:text-white rounded-lg">2</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="z-10 flex items-center justify-center px-3 h-8 leading-tight text-[#E10A0A] font-iranSansBold rounded-lg lg:bg-white hover:bg-gray-300 hover:text-white">3</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center justify-center px-3 h-8 leading-tight text-[#E10A0A] lg:bg-white font-iranSansBold rounded-lg hover:bg-gray-300 hover:text-white">4</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="flex items-center justify-center px-3 h-8 leading-tight text-[#E10A0A] lg:bg-white font-iranSansBold rounded-lg hover:bg-gray-300 hover:text-white">5</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="w-[32px] flex items-center justify-center px-3 h-8 ms-0 leading-tight text-[#E10A0A] lg:bg-white rounded-s-lg hover:bg-gray-300 hover:text-white rounded-lg">
+                  <span class="sr-only">next</span>
+                  <svg class="w-3 h-3 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M5 1 1 5l4 4" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="container flex flex-col rounded-[16px] !w-[80%] mx-auto  overflow-hidden p-6">
+    <div>
+      <div class="flex gap-1">
+      </div>
+      <h3 class="font-iranyekan-bold text-[16px] lg:text-[18px]  mb-4">
+        قیمت روز گوشی موبایل
+      </h3>
+
+
+
+      <p id="text"
+        class="text-[14px] font-iranyekan-bold lg:text-[14px] text-gray-600 overflow-hidden transition-all duration-300 mb-6"
+        style="max-height: 40px">
+        دی‌جی لند از معتبرترین و محبوب‌ترین فروشگاه‌های آنلاین کالاهای دیجیتال ازجمله گوشی موبایل است که محصولاتی متنوع
+        از برندهای محبوب دنیا را با قیمت استثنایی و به همراه گارانتی معتبر در اختیار علاقه‌مندان قرار می‌دهد. شما
+        می‌توانید با مراجعه به وب سایت فروشگاه از قیمت روز گوشی موبایل برندهای مختلف مطلع شوید و در صورت علاقه نسبت به
+        خرید گوشی موبایل دلخواهتان اقدام کنید. یکی از مواردی که هر روزه با تغییر مواجه است، قیمت روز گوشی موبایل محسوب
+        می‌شود، اما کارشناسان واحد فروش دی‌جی لند برای کمک به کاربران در خرید گوشی موبایل همواره تلاش می‌کنند قیمت گوشی
+        های موجود در سایت را به روز نگه دارند.
+        <br />
+        فروشگاه اینترنتی موبایل خرید گوشی موبایل از فروشگاه اینترنتی موبایل،
+        یکی از سریع‌ترین راه‌ها به شمار می‌آید. در زمان خرید اینترنتی گوشی
+        موبایل، باید به نکاتی مانند نشان نماد الکترونیکی، پروتکل SSL و درگاه
+        امن پرداخت فروشگاه اینترنتی توجه کنید. قبل از خرید موبایل، نظرات
+        کاربران را بررسی کنید. این نظرات می‌تواند به شما درک بهتری از تجربه
+        خرید دیگران و کیفیت سرویس‌دهی آن فروشگاه اینترنتی بدهد. مورد بعدی که
+        می‌بایست به آن دقت شود اصالت کالای دیجیتال است.
+        <br />
+        خرید اقساطی گوشی این‌ روزها خرید اقساطی گوشی به دلیل نوسان قیمت گوشی
+        موبایل بهترین راه خرید گوشی محسوب می‌شود. دی‌جی‌لند با فراهم کردن
+        امکان خرید قسطی گوشی موبایل، خرید قسطی لپ تاپ و سایر کالاهای دیجیتال،
+        شرایطی آسان را برای خرید جدیدترین محصولات دیجیتال فراهم کرده است. شما
+        می‌توانید به دو روش حضوری و آنلاین گوشی مورد نظر خود را به صورت قسطی
+        خریداری نمایید. در روش آنلاین کافیست به صفحه ویژه خرید قسطی کالای
+        دیجیتال دی‌جی‌لند و برای خرید حضوری گوشی موبایل کافیست به یکی از شعب
+        دی‌جی‌لند مراجعه کنید تا خرید خود را در سریعترین زمان ممکن و با شرایطی
+        آسان انجام دهید.
+        <br />
+
+        خرید گوشی اپل شرکت اپل با ورود به دنیای تلفن‌های همراه، معنای گوشی
+        هوشمند را برای همه تعریف کرد. از سال ۲۰۰۷ که اولین آیفون معرفی شد، هر
+        ساله کمپانی‌های بزرگ منتظر رونمایی آیفون جدید هستند تا قابلیت‌های جدید
+        این گوشی را بررسی و مدلی قابل رقابتی را به بازار عرضه کنند. قیمت گوشی
+        آیفون همیشه از سایر برندها بالاتر بوده اما طرفدارانش معمولا تا سال‌ها
+        به آن وفادار می‌مانند. از لیست قیمت آیفون در فروشگاه اینترنتی
+        دی‌جی‌لند می‌توانید انواع گوشی آیفون از مدل‌های آیفون ۱۳ ، آیفون 13
+        پرو ، آیفون ۱۳ پرومکس گرفته تا آیفون SE را مشاهده کنید و با خیالی راحت
+        از رجیستری آیفون و همینطور ۱۸ ماه ضمانت، آیفون مورد نظر خود را سفارش
+        دهید.
+        <br />
+        خرید گوشی هواوی هواوی در طول سال‌های فعالیت خود ثابت کرده است که یکی
+        از نوآوران عرصه تکنولوژی به حساب می‌آید. کاربران گوشی های هواوی
+        می‌دانند که این برند حساسیت ویژه‌ای روی دوربین گوشی های خود دارد. فرقی
+        نمی‌کند شما گوشی اقتصادی هواوی را داشته باشید یا گوشی میان رده هوآوی
+        یا گوشی پرچمدار هواوی، همیشه می‌توانید از دوربین باکیفیت گوشی خود لذت
+        ببرید. قیمت گوشی هواوی را همیشه می‌توانید از صفحه گوشی هواوی در سایت
+        دی‌جی‌لند مشاهده و با ضمانت معتبر بخرید.
+        <br />
+        فروشگاه موبایل، کالای دیجیتال و لوازم جانبی دی‌جی‌لند فروشگاه اینترنتی
+        دی‌جی‌لند، اولین و بزرگترین فروشگاه اینترنتی و حضوری کالای دیجیتال در
+        ایران است. از خرید گوشی موبایل یا خرید لپ ‌تاپ تا خرید اسپیکر یا خرید
+        ساعت هوشمند را می‌توانید از فروشگاه اینترنتی دی‌جی‌لند انجام دهید.
+        دی‌جی‌لند علاوه بر فروشگاه اینترنتی، امکان خرید حضوری از شعب خود (۱۰
+        شعبه در کشور) را فراهم کرده است. شما می‌توانید از یکی از دو روش ذکر
+        شده انواع گوشی‌های سامسونگ، شیائومی، اپل، نوکیا، انواع تبلت، انواع
+        لپتاپ، انواع هدفون و هندزفری ، انواع ساعت هوشمند ، انواع تلویزیون ،
+        انواع اسپیکر و ساندبار ، گجت‌های هوشمند و سایر کالاهای دیجیتال را با
+        بهترین قیمت و معتبر ترین گارانتی خریداری کنید. همچنین اگر قصد خرید
+        اینترنتی را دارید می‌توانید تمامی کالاهای دیجیتال را در هر ساعتی از
+        شبانه‌روز و با ارسال سریع از سایت دی‌جی‌لند سفارش دهید.
+      </p>
+    </div>
+
+
+    <button id="toggleButton"
+      class="flex w-32 h-16 font-iranyekan-bold items-center justify-center gap-1 text-[#505060] mt-auto">
+      مشاهده بیشتر
+      <img class="rotate-180" src="./media/svg3/svgexport-24.svg" alt="فلش" />
+    </button>
+  </div>
+
+
+  <!-- end moshakhasat , nazarat -->
+
+
+  <hr>
+  <!-- start footer -->
+  <div class="lg:block hidden mt-5 !w-[80%]  mx-auto  container flex flex-col">
+    <div class="">
+      <img src="./media/footer/dgland_footer_logo.svg" alt="" />
+    </div>
+
+    <div class="flex justify-between h-auto w-auto">
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">درباره‌ی دی‌جی‌لند</p>
+        <p class="text-gray-500 font-iranyekan-bold">تماس با ما</p>
+        <p class="text-gray-500 font-iranyekan-bold"> درباره‌ی ما </p>
+        <p class="text-gray-500 font-iranyekan-bold">مجله‌ی دی‌جی‌لند </p>
+        <p class="text-gray-500 font-iranyekan-bold">شعب</p>
+        <p class="text-gray-500 font-iranyekan-bold">شرایط و قوانین</p>
+        <p class="text-gray-500 font-iranyekan-bold">خرید اقساطی</p>
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">خدمات مشتریان</p>
+        <p class="text-gray-500 font-iranyekan-bold">پرسش‌های متداول</p>
+        <p class="text-gray-500 font-iranyekan-bold"> راهنمای خرید</p>
+        <p class="text-gray-500 font-iranyekan-bold">شرایط بازگشت کالا</p>
+        <p class="text-gray-500 font-iranyekan-bold">ثبت شکایات </p>
+        <p class="text-gray-500 font-iranyekan-bold">حریم خصوصی</p>
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">دسته‌بندی‌های پربازدید</p>
+        <p class="text-gray-500 font-iranyekan-bold">گوشی موبایل</p>
+        <p class="text-gray-500 font-iranyekan-bold"> لپتاب</p>
+        <p class="text-gray-500 font-iranyekan-bold">هدفون و هندزفری</p>
+        <p class="text-gray-500 font-iranyekan-bold">اسپیکر و بلندگو</p>
+        <p class="text-gray-500 font-iranyekan-bold">ساعت هوشمند</p>
+        <p class="text-gray-500 font-iranyekan-bold">تجهیزات ذخیره سازی</p>
+        <p class="text-gray-500 font-iranyekan-bold">شارژر و پاوربانک</p>
+
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">ساعت پاسخگویی</p>
+        <p class="text-gray-500 font-iranyekan-bold">۷ روز هفته از ساعت ۹ الی ۲۰</p>
+        <div class=" flex-col flex  gap-2 mt-1">
+          <div class="mohtava flex gap-1 cursor-pointer">
+            <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+            <div class="call flex flex-col">
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                تلفن امور مشتریان
+              </p>
+              <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+            </div>
+          </div>
+          <div class="mohtava flex gap-1 cursor-pointer">
+            <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+            <div class=" flex flex-col">
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                روابط عمومی
+              </p>
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                Info@dgland.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class=" flex flex-col">
+        <h1 class="font-iranyekan-bold text-[#505060] text-[14px] my-4">
+          ما را دنبال کنید
+        </h1>
+        <div class="pic flex gap-5 cursor-pointer">
+          <img src="./media/svgmenu/svgexport-18.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-19.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-20.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-21.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="hidden lg:block   w-[80%] mx-auto mt-2 lg:flex">
+    <div class=" w-[50%]">
+      <h1 class="font-iranyekan-bold mb-2 text-[#505060]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="text-[11px]  font-iranyekan-bold text-[#878787]">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه
+        به رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و
+        نیاز به کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی
+        خدمت‌رسانی و تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای
+        دیجیتال ، لوازم خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:flex w-[50%] flex justify-center gap-4">
+      <img src="./media/footer/2.png" alt="" class="!w-[80px] !object-contain" />
+      <img src="./media/footer/1.webp" alt="" class="!w-[80px] !object-contain" />
+    </div>
+  </div>
+  </div>
+
+  <div class="  mx-auto lg:hidden pb-6 w-[92%] pt-2">
+    <div class="titr w-full container mx-auto text-center">
+      <p class="font-iranyekan-bold text-[16px] text-[#878787]">
+        <span class="font-iranyekan-bold text-[#E10A0A]">همراه شما هستیم.</span> با ما در ارتباط
+        باشید...
+      </p>
+      <p class="font-iranyekan-bold font-thin mt-3 text-[16px] text-[#797979] mb-2">
+        ۷ روز هفته از ساعت ۹ الی ۲۰
+      </p>
+    </div>
+    <div class="items mx-auto flex justify-center gap-2 mt-7">
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+        <div class=" flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            تلفن امور مشتریان
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+        </div>
+      </div>
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+        <div class=" flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            روابط عمومی
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            Info@dgland.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="khdmat flex justify-around container mt-12">
+      <img src="./media/footer/11.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/22.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/3.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/44.png" class="!h-[61.39px]" alt="" />
+    </div>
+    <div class="lg:hidden block mx-auto font-iranyekan-bold mt-10">
+      <h1 class="text-[#525252]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="font-iranyekan-bold text-[11px] text-zinc-500">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه به
+        رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و نیاز به
+        کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی خدمت‌رسانی و
+        تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای دیجیتال ، لوازم
+        خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:hidden block flex w-[95%] mx-auto justify-center mt-2 gap-5">
+      <img src="./media/footer/2.png" class="!w-[80px] !object-contain" alt="" />
+      <img src="./media/footer/1.webp" class="!w-[80px] !object-contain" alt="" />
+    </div>
+  </div>
+  </section>
+
+
+  <!-- start footer -->
+
+  <!-- start copyright -->
+  <div class="hidden lg:block mt-[23px] w-full border-t px-[10px] ">
+    <div class="container mx-auto flex !w-[80%] ">
+      <div class="flex w-full flex-row items-center justify-between py-[10px] text-[12px] font-light">
+        <div>
+          <p class="text-[#878787] font-iranyekan-bold"> © کلیه حقوق این وب سایت متعلق به aliomidi است.</p>
+        </div>
+        <div dir="ltr" class="text-[#878787] font-iranyekan-bold">© Copyright 2022 Dgland.com</div>
+      </div>
+    </div>
+  </div>
+
+  <footer
+    class=" bg-white mt-[-100px] !fixed  bottom-0  lg:hidden w-full h-[70px]   scroll-m-2 border-t-4   shadow-sm   z-10  ">
+    <div class="container !w-[99%] justify-between flex  h-[70px] mx-auto">
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-17.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[14px]">خانه</p>
+      </div>
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-18.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[12px] ">دسته‌بندی</p>
+      </div>
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-19.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[12px] ">سبد‌خرید</p>
+      </div>
+      <div class="mx-auto justify-center pr-3  flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-20.svg" alt="">
+        <p class="font-iranyekan-bold  pr-1   text-[#878787] text-[14px] ">ورود</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end copyright -->
+
+
+  <script src="./js/script2.js"></script>
+</body>
+
+</html>

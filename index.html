@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" mohtava="width=device-width, initial-scale=1.0" />
+  <title>فروشگاه اینترنتی دیجی لند</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="/media/favicon/logo.svg" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- start navar balaye kole safhe -->
+  <section class="fixed top-0 z-[99]  h-fit w-full scroll-m-2 border-b bg-white font-mainFa shadow-sm ">
+    <!-- start banner tabligh -->
+    <img class="object-cover w-full h-10 lg:hidden" src="./media/banner-start/banner responsive.webp" alt="" />
+    <img class="lg:object-cover lg:block hidden lg: lg:w-full lg:h-10" src="./media/banner-start/banner.jpg" alt="" />
+    <!-- end banner tabligh -->
+  </section>
+  <!-- end navar balaye kole safhe -->
+
+  <!-- start menu desctop -->
+  <section id="navbar"
+    class="fixed top-0  mt-10 scroll-m-2 border-b   shadow-sm lg:block w-full flex-col  bg-white z-10  h-[74px] flex lg:h-[144px]  px-[16px]">
+    <div class="flex w-full pt-6 flex-row items-center gap-3 justify-between bg-blac">
+
+      <button id="menu-toggle" class="fixed  right-4 z-50 text-[#E10A0A] p-3 lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+
+      <div id="mobile-menu"
+        class="fixed top-0 mt-28 right-0 w-[30%] h-screen bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-40 lg:hidden">
+        <div class="p-4 flex flex-col">
+
+
+          <img class="w-[148px] h-[35px]" src="./media/svgmenu/21212121212.svg" alt="">
+
+
+          <ul class="mt-6 flex flex-col gap-4">
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-3.svg" alt="دسته‌بندی" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm"> پیشنهاد ویژه</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-5.svg" alt="خرید اقساطی" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">مجله دی‌جی‌لند</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-6.svg" alt="مجله دی‌جی‌لند" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">شعب دی‌جی‌لند</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-7.svg" alt="پیشنهاد طلایی" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">پرسش های متداول</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-8.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm"> راهنمای خرید</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-9.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">شرایط بازگشت کالا</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-10.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">حریم خصوصی</p>
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer">
+              <img src="./media/menuuu mobile/svgexport-11.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+              <p class="font-iranyekan-bold text-[#878787] hover:text-[#E10A0A] text-sm">شرایط و قوانین</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- start logo and search -->
+      <div class="flex gap-6 !w-full pr-12">
+        <img class="lg:w-[150px] hidden lg:block lg:h-[40px]" src="./media/svgmenu/dgland main logo .svg" alt="" />
+        <div
+          class="z-10 pr-1 flex  py-[2px] lg:h-full  lg:w-[50%]  w-full flex-row items-center gap-[6px] rounded-[22px] bg-[#f6f5f5]">
+          <div class=" flex h-[36px] w-[36px] items-center justify-center rounded-full bg-white">
+            <img src="./media/svgmenu/svgexport-1.svg" alt="" />
+
+          </div>
+          <img class="lg:hidden block" src="./media/svgmenu/svgexport-2 (1).svg" alt="">
+          <input class="hidden lg:block z-10 bg-[#f6f5f5] bg-transparent  pb-1 h-[20px]" placeholder="جستجو ... "
+            value="" />
+
+        </div>
+      </div>
+      <!-- end logo and search -->
+
+      <!-- start cart kharid -->
+      <div class="lg:block hidden bg-blac lg:flex h-[42px] ml-28">
+        <div class="flex h-full w-[135px] cursor-pointer items-center gap-[4px]">
+          <div
+            class="h-full pl-3 flex gap-1 items-center justify-center w-auto rounded-[10px] border border-surface-normal p-2">
+            <img class="rotate-180" src="./media/svgmenu/svgexport-2.svg " alt="" />
+            <span
+              class="text-center flex items-center text-[#e10a0a] justify-center font-iranyekan-bold text-[14px]">ورود |
+              ثبت‌نام</span>
+          </div>
+        </div>
+        <div
+          class="h-[41px] flex gap-1 items-center justify-center w-[41px] rounded-[10px] border border-surface-normal p-2">
+          <img class="" src="./media/svgmenu/cart.svg " alt="" />
+        </div>
+      </div>
+      <!-- end cart kharid -->
+    </div>
+    <!-- start menuuuuu -->
+    <nav class="lg:block hidden lg:flex lg:h-[72px] w-full flex-row items-center justify-between px-4  ">
+      <ul class="flex  flex-nowrap  mx-auto  mr-2  justify-between gap-4 lg:gap-6 items-center ">
+
+        <li
+          class="relative !w-auto group flex items-center pr-28   justify-center gap-2 whitespace-nowrap cursor-pointer">
+          <img class="text-stone-500" src="./media/svgmenu/svgexport-3.svg" alt="دسته‌بندی">
+          <p
+            class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] cursor-pointer text-sm md:text-base">
+            دسته‌بندی کالاها
+          </p>
+          <!-- Submenu -->
+          <div
+            class="absolute   z-10 hidden group-hover:flex flex-wrap overflow-auto gap-y-2 gap-x-12 bg-white p-4  top-full ">
+            <!-- Example Item -->
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/1.png" alt="">
+                <a href="./index2.html"
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  موبایل
+                </a>
+
+              </div>
+
+            </div>
+            <!-- Add more items here -->
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/2.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لوازم جانبی موبایل
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/3.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  هدفون و هندزفری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/4.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  لپتاپ و تبلت
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/5.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  کامپیوتر
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/6.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  ساعت هوشمند
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/7.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  گیمینگ
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/8.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  صوتی و تصویری
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="item  xl:w-[45%] lg:w-[90%]">
+              <div class=" flex w-[230px] h-[48px] items-center  cursor-pointer">
+                <img class="w-6 h-6" src="./media/submenu/9.png" alt="">
+                <a href=""
+                  class="font-iranyekan-bold flex cursor-pointer items-center py-3 pr-2 text-[14px] font-bold  text-text-normal text-black hover:text-[#E41F1F]">
+                  تجهیزات ذخیره‌سازی
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-5.svg" alt="خرید اقساطی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            خرید اقساطی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-6.svg" alt="مجله دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            مجله دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-7.svg" alt="پیشنهاد طلایی" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            پیشنهاد طلایی
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2 cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-8.svg" alt="شعب دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            شعب دی‌جی‌لند
+          </p>
+        </li>
+
+        <li class="flex items-center gap-2  cursor-pointer whitespace-nowrap">
+          <img src="./media/svgmenu/svgexport-9.svg" alt="نمایندگی دی‌جی‌لند" class="w-6 h-6">
+          <p class="font-iranyekan-bold text-[#878787] duration-300 hover:text-[#E10A0A] text-sm md:text-base">
+            نمایندگی دی‌جی‌لند بگیرید!
+          </p>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- end menuuuuu -->
+  </section>
+
+  <!-- end menu desctop -->
+
+  <!-- end menu -->
+
+  <!-- start swiper -->
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper mt-[130px] lg:mt-[184px]">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="hidden lg:block" src="./media/top slider/DESKTOPSLIDE-64b8e4e9-fe81-48dd-a3a6-9081293b2bd2.webp"
+          alt="" />
+        <img class="lg:hidden" src="./media/top slider/MOBILESLIDE-62aaa863-b00e-4dd8-8b25-976371d818fc.webp" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img class="hidden lg:block" src="./media/top slider/DESKTOPSLIDE-b138ee2b-efb4-4857-9c77-76da6c3a816e.webp"
+          alt="" />
+        <img class="lg:hidden" src="./media/top slider/MOBILESLIDE-b2deb05d-f18f-48f8-8c27-0be51451e6e0.webp" alt="" />
+      </div>
+      <div class="swiper-slide">
+        <img class="hidden lg:block" src="./media/top slider/DESKTOPSLIDE-61354558-f460-407b-b32e-e8002fe35077.webp"
+          alt="" />
+        <img class="lg:hidden" src="./media/top slider/MOBILESLIDE-15780e0b-f48e-411e-ad1c-19eef0e0ee8c.webp" alt="" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- end swiper -->
+
+  <!-- start dastehaye por bazdid -->
+  <section class="lg:flex lg:px-[10px] lg:w-full lg:h-[295px]">
+    <div class="lg:w-[90%] lg:container lg:mx-auto">
+      <div class="h-[60px] lg:h-[94px] pt-[16px] lg:w- lg:mx-auto">
+        <span class="flex text-[20px] justify-center font-iranyekan-bold font-normal lg:text-[22px]">دسته‌ بندی‌ های
+          پر‌بازدید</span>
+        <img class="mx-auto pt-2" src="./media/svgmenu/svgexport-11.svg" alt="" />
+      </div>
+      <!-- Swiper -->
+      <div class="swiper mySwiper2 w-[90%] mx-auto lg:mt-1 mt-6">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide flex-col items-center cursor-pointer">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/1.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">گوشی
+              موبایل</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/2.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">لپتاب</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/3.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">هدفون
+              و هندزفری</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/4.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">اسپیکر
+              و بلندگو</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/5.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">ساعت
+              هوشمند</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/6.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">تجهیزات
+              ذخیره سازی</span>
+          </div>
+          <div class="swiper-slide flex flex-col items-center">
+            <div class="flex justify-center">
+              <img src="./media/dastebandi-por/7.jpeg" alt=""
+                class="w-[130px] h-[130px] sm:w-[100px] sm:h-[100px] object-contain" />
+            </div>
+            <span
+              class="flex justify-center pt-4 font-iranyekan-bold text-[12px] sm:text-[12px] md:text-[12px] lg:text-[14px]">شارژر
+              و پاوربانک</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- end dastehaye por bazdid -->
+  <!-- start banner kharid -->
+
+  <div class="container mx-auto flex flex-col lg:flex-row w-full h-auto gap-4 p-4">
+    <div class="w-full lg:w-1/2 h-auto p-2">
+      <img class="w-full h-full rounded-lg object-cover shadow-lg" src="./media/bannerkharid/2.jpeg" alt="Banner 1" />
+    </div>
+
+    <div class="w-full lg:w-1/2 h-auto p-2">
+      <img class="w-full h-full rounded-lg object-cover shadow-lg" src="./media/bannerkharid/1.jpeg" alt="Banner 2" />
+    </div>
+  </div>
+  <!-- end banner kharid -->
+
+  <!-- start takhfiftime -->
+
+  <section class="w-full lg:h-[491px] h-[360px] swiper2 bg-gradient-to-r from-[#AF0202] to-[#E10A0A]">
+    <div class="flex justify-center gap-2 pt-5">
+      <img class="!w-[30px] lg:!w-[40px]" src="./media/svgmenu/svgexport-10.svg" alt="" />
+      <span class="font-iranyekan-bold lg:text-[24px] text-[20px] text-white lg:mt-1">تخفیف تایم</span>
+    </div>
+
+    <div class="swiper mySwiper2 mt-2 lg:mt-5 w-full lg:!w-[80%] lg:container">
+      <div class="swiper-wrapper container !w-full">
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/1.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    5.730.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/2.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  گوشی موبایل شیائومی مدل PocoC75 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%27</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    15.000.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    10.800.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/3.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  هدفون بلوتوثی ریمکس مدل Alloybuds 1 X-iron
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%20</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    1.650.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    1.320.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/4.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  ساعت هوشمند سامسونگ مدل Galaxy Watch 6 Classic 47mm
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%5</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    12.600.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    12.000.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/5.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  هدفون بلوتوثی ریمکس مدل Alloybuds 1 X-iron
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%16</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    2.730.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    1.900.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/6.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    5.730.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/7.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    5.730.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !bg-black !pl-2 lg:rounded-[25px] rounded-[10px]">
+          <div
+            class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+            <div
+              class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-5 pt:4">
+              <div class=" !transition-all !duration-300 !ease-linear relative">
+                <img src="./media/takhfiftime/8.jpeg" alt=""
+                  class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+              </div>
+
+              <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+              <div class="">
+                <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                  اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                </p>
+              </div>
+
+              <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                <span
+                  class="dovom bg-[#E10A0A] transition-all duration-300 ease-linear flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                <div class=" text-left transition-all duration-300 ease-linear">
+                  <h4 class="line-through lg:text-[14px]  text-[12px] text-[#A9A9A9]">
+                    5.730.000 تومان
+                  </h4>
+                  <h3
+                    class="text-[#E10A0A]  lg:text-[17px] text-[15px] font-iranyekan-bold transition-all duration-300 ease-linear">
+                    4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end takhfiftime -->
+
+  <!-- start gooshi mobile -->
+  <section class="swiper3 lg:container mt-4 h-[198px] xl:h-[275px] lg:h-[255px] mx-auto">
+    <div class="h-[60px] lg:h-[94px] pt-[16px] lg:mx-auto">
+      <span class="flex text-[20px] justify-center font-iranyekan-bold font-normal lg:text-[22px]">گوشی موبایل</span>
+      <img class="mx-auto pt-2" src="./media/svgmenu/svgexport-11.svg" alt="" />
+    </div>
+    <div class="swiper mySwiper3 lg:mt-0 mt-8 ">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide X flex justify-center w-auto">
+          <img src="./media/gooshimobile/1.jpeg"
+            class="w-[286px] h-[198px] cursor-pointer lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <img src="./media/gooshimobile/2.jpeg"
+            class="w-[286px] h-[198px] lg:w-[395px] cursor-pointer lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide justify-center">
+          <img src="./media/gooshimobile/3.jpeg"
+            class="w-[286px] h-[198px] lg:w-[395px] cursor-pointer lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end gooshi mobile -->
+
+  <!-- start mahboob mobile -->
+
+  <section class="w-full lg:h-[491px] mt-[150px] h-[360px] swiper2">
+    <div class="flex justify-center gap-3 mt-5">
+      <img class="!w-[30px] lg:!w-[50px] mt-10" src="./media/svgmenu/svgexport-12.svg" alt="" />
+      <span class="font-iranyekan-bold lg:text-[22px] text-[18px] flex justify-center items-center mt-8 lg:mt-10">محبوب
+        ترین
+        موبایل ها</span>
+      <img class="!w-[30px] lg:!w-[50px] mt-10" src="./media/svgmenu/svgexport-12.svg" alt="" />
+    </div>
+    <div class=" lg:!w-full lg:!h-[470px]   !h-[342px] bg-[#F6F5F5]">
+      <div class="swiper mySwiper4  mt-10 lg:!h-[470px] lg:container lg:!w-[80%] !h-[342px] bg-[#F6F5F5]">
+        <div class="swiper-wrapper container flex justify-between items-center ">
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/1.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدست سونی مدل PULSE 3D مخصوص پلی استیشن 4 و 5گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                    ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A
+
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%5</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      44.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      43.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/2.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدست سونی مدل PULSE 3D مخصوص پلی استیشن 4 و 5گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت
+                    128 گیگابایت و رم 6 گیگابایت - ویتنام
+
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%7</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      14.0.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      13.299.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/3.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل شیائومی مدل Poco X6 5G دو سیمکارت با ظرفیت 512 گیگابایت و 12 گیگابایت رم
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      18.500.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      17.800.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/4.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%5</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      23.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      21.799.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/5.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%4</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      30.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      29.300.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/6.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      4.970.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob mobile/7.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت- ویتنام
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%10</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      4.970.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      4.497.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end mahboob mobile -->
+
+  <!-- START soti -->
+
+  <section class="swiper3 lg:container mt-20 h-[198px] xl:h-[275px] lg:h-[255px] mx-auto">
+    <div class="h-[60px] lg:h-[94px] pt-[16px] lg:mx-auto">
+      <span class="flex text-[20px] justify-center font-iranyekan-bold font-normal lg:mt-5 lg:text-[22px]">صوتی و
+        تصویری</span>
+      <img class="mx-auto pt-2" src="./media/svgmenu/svgexport-11.svg" alt="" />
+    </div>
+    <div class="swiper mySwiper3 mt-9 lg:mt-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide cursor-pointer flex justify-center w-auto">
+          <img src="./media/soti/1.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide cursor-pointer flex justify-center">
+          <img src="./media/soti/2.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide cursor-pointer justify-center">
+          <img src="./media/soti/3.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end soti -->
+
+  <!--start moshavere kharid -->
+  <section class="flex lg:mt-[150px] md:mt-[130px] sm:mt-[130px] mt-[125px] w-full">
+    <div class="lg:container flex justify-center lg:h-[350px] h-[240px] mx-auto w-[90%]">
+      <img class="rounded-[15px] cursor-pointer" src="./media/moshavere kharid/1.png" alt="" />
+    </div>
+  </section>
+  <!--end moshavere kharid -->
+
+  <!-- start kampyooter va laptob -->
+  <section class="swiper3 lg:container mt-10 h-[198px] xl:h-[275px] lg:h-[255px] mx-auto">
+    <div class="h-[60px] lg:h-[94px]  lg:pt-[16px] lg:mx-auto">
+      <span class="flex text-[20px] justify-center font-iranyekan-bold font-normal lg:text-[22px]">کامپیوتر و لپ‌تاپ
+      </span>
+      <img class="mx-auto pt-2" src="./media/svgmenu/svgexport-11.svg" alt="" />
+    </div>
+    <div class="swiper mySwiper3 mt-6 ">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide cursor-pointer flex justify-center w-auto">
+          <img src="./media/soti/11.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide cursor-pointer flex justify-center">
+          <img src="./media/soti/12.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+        <div class="swiper-slide cursor-pointer justify-center">
+          <img src="./media/soti/13.jpeg" class="w-[286px] h-[198px] lg:w-[395px] lg:h-[275px] rounded-[15px]" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end kampyooter va laptob -->
+
+  <!-- start mahboob janebi -->
+  <section class="w-full lg:h-[491px] mt-[150px] h-[360px] swiper2">
+    <div class="flex justify-center gap-3">
+      <img class="!w-[30px] lg:!w-[50px]" src="./media/svgmenu/svgexport-12.svg" alt="" />
+      <span class="font-iranyekan-bold lg:text-[22px] text-[18px] flex justify-center items-center mt-1">محبوب ترین های
+        لوازم جانبی</span>
+      <img class="!w-[30px] lg:!w-[50px]" src="./media/svgmenu/svgexport-12.svg" alt="" />
+    </div>
+
+    <div class="!w-full  bg-[#F6F5F5]  lg:!h-[470px] !h-[342px]">
+      <div class="swiper mySwiper5 lg:container lg:!w-[80%]  mt-10 lg:!h-[470px] !h-[342px] ">
+        <div class="swiper-wrapper container flex justify-between items-center">
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/1.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    پروژکتور قابل حمل شیائومی مدل WANBO T6Max
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%2</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/2.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%6</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      32.290.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      30.240.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/3.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدفون بلوتوثی اپل مدل AirPods Max 2020
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/4.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    ساعت هوشمند سامسونگ مدل Galaxy Watch 6 Classic 43mm
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%4</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      8.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      7.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/5.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    هدفون بلوتوثی سامسونگ مدل Galaxy Buds 2 Pro
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%11</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      5.000.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      4.600.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/6.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    پروژکتور قابل حمل شیائومی مدل WANBO T6Max
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/7.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    پروژکتور قابل حمل شیائومی مدل WANBO T6Max
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/8.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    پروژکتور قابل حمل شیائومی مدل WANBO T6Max
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide cursor-pointer lg:!w-[240px] lg:!h-[362px] !w-[185px] !h-[288px] low-height !transition-all !duration-300 !ease-linear !pr-2 !pl-2 lg:rounded-[25px] rounded-[10px]">
+            <div
+              class="farzand w-full h-full !transition-all !duration-[400ms] !ease-linear bg-white rounded-[10px] lg:rounded-[25px] !top-0 absolute">
+              <div
+                class="mohtava items-center justify-around absolute flex flex-col lg:!gap-6 !gap-7 transition-all duration-300 ease-linear lg:pt-7 pt:6">
+                <div class="!transition-all !duration-300 !ease-linear relative">
+                  <img src="./media/mahboob janebi/9.jpeg.jpeg" alt=""
+                    class="gheyb lg:!w-[180px] !w-[136px] transition-all duration-300 ease-linear" />
+                </div>
+
+                <img src="./media/takhfiftime/khamoosh.png" alt="" class="khamoosh !hidden lg:!block" />
+
+                <div class="">
+                  <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5 pr-3 h-[40px] pl-3">
+                    پروژکتور قابل حمل شیائومی مدل WANBO T6Max
+                  </p>
+                </div>
+
+                <div class="btm w-[93%] flex justify-between pr-2 pl-2 items-center font-iranSansBold">
+                  <span
+                    class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full lg:p-[7px] p-[5px] text-sm">%3</span>
+                  <div class="text-left">
+                    <h4 class="line-through lg:text-[14px] text-[12px] !text-[#A9A9A9]">
+                      19.250.000تومان
+                    </h4>
+                    <h3 class="!text-[#E10A0A] font-iranyekan-bold lg:text-[17px] text-[15px]">
+                      18.790.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- end mahboob janebi -->
+
+  <!-- start porforoosh -->
+  <section class="swiper6 komod bg-black !pb-8 mt-9 bg-contain w-full z-0 pt-5 !pr-3 !pl-3">
+    <div class="bala w-full mt-5">
+      <img src="./media/porforoosh/2.png" alt="" class="mx-auto" />
+    </div>
+    <div class="swiper mySwiper6 !h-fit">
+      <div class="swiper-wrapper lg:!container !flex !justify-center">
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[388px] !w-[181px] !h-[278px] rounded-[20px] mt-10 relative flex flex-col pr-2 pl-2 !justify-between lg:!gap-7 lg:pt-9 lg:pb-5 !shadow-md z-40 pt-4 pb-3">
+          <div
+            class="gerd w-9 h-9 rounded-full bg-[#1B1B1B] absolute top-[-17px] border-[3px] border-[#434343] flex items-center justify-center">
+            <div class="dot w-1.5 h-1.5 bg-[#434343] rounded-full"></div>
+          </div>
+          <div class="">
+            <img src="./media/porforoosh/1.jpeg" alt="" class="lg:!w-[200px] !w-[146px]" />
+          </div>
+          <div class="">
+            <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5">
+              گوشی موبایل سامسونگ مدل Galaxy A14 ظرفیت 64 گیگابایت رم 4
+              گیگابایت- ویتنام
+            </p>
+          </div>
+          <div class="btm w-[93%] flex justify-between items-center font-iranSansBold">
+            <div class=" text-left leading-none">
+              <h4 class="line-through text-[14px] text-[#A9A9A9] hidden">
+                8.570.000تومان
+              </h4>
+              <h3 class="text-[#E10A0A] font-iranyekan-bold text-[17px]">
+                10.630.000<span class="font-yekExtra font-iranyekan-bold text-[13px]">تومان</span>
+              </h3>
+            </div>
+            <!-- <span -->
+            <!-- class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full w-[35px] h-[35px] text-sm">%2</span> -->
+          </div>
+        </div>
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[388px] !w-[181px] !h-[278px] rounded-[20px] mt-10 relative flex flex-col pr-2 pl-2 lg:!gap-6 lg:pt-9 lg:pb-5 !shadow-md z-[39] !justify-between pt-5 pb-2">
+          <div
+            class="gerd w-9 h-9 rounded-full bg-[#1B1B1B] absolute top-[-17px] border-[3px] border-[#434343] flex items-center justify-center">
+            <div class="dot w-1.5 h-1.5 bg-[#434343] rounded-full"></div>
+          </div>
+          <div class="">
+            <img src="./media/porforoosh/2.jpeg" alt="" class="lg:!w-[200px] !w-[146px]" />
+          </div>
+          <div class="">
+            <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5">
+              تبلت سامسونگ مدل Galaxy Tab A8 X205 2021 ظرفیت 32 گیگابایت رم 3
+              گیگابایت 10.5 اینچ
+            </p>
+          </div>
+          <div class="btm w-[93%] flex justify-between items-center font-iranSansBold">
+            <div class=" text-left leading-none">
+              <h4 class="line-through text-[14px] text-[#A9A9A9]">
+                8.570.000تومان
+              </h4>
+              <h3 class="text-[#E10A0A] font-iranyekan-bold text-[17px]">
+                8.370.000<span class="font-iranyekan-bold text-[13px]">تومان</span>
+              </h3>
+            </div>
+            <span class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full p-[5%] text-sm">%2</span>
+          </div>
+        </div>
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[388px] !w-[181px] !h-[278px] rounded-[20px] mt-10 relative flex flex-col pr-2 pl-2 lg:!gap-7 lg:pt-9 lg:pb-5 !shadow-md z-[38] !justify-between pt-4 pb-3">
+          <div
+            class="gerd w-9 h-9 rounded-full bg-[#1B1B1B] absolute top-[-17px] border-[3px] border-[#434343] flex items-center justify-center">
+            <div class="dot w-1.5 h-1.5 bg-[#434343] rounded-full"></div>
+          </div>
+          <div class="">
+            <img src="./media/porforoosh/3.jpeg" alt="" class="lg:!w-[200px] !w-[146px]" />
+          </div>
+          <div class="">
+            <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5">
+              گوشی موبایل شیائومی مدل Poco X5 Pro 5G ظرفیت 256 گیگابایت و رم 8
+              گیگابایت ( پک گلوبال )
+            </p>
+          </div>
+          <div class="btm w-[93%] flex justify-between items-center font-iranSansBold">
+            <div class=" text-left leading-none">
+              <h4 class="line-through  text-[14px] text-[#A9A9A9] hidden">
+                18.570.000تومان
+              </h4>
+              <h3 class="text-[#E10A0A] font-iranyekan-bold text-[17px]">
+                18.190.000
+                <span class="font-iranyekan-bold text-[13px]">تومان</span>
+              </h3>
+            </div>
+            <!-- <span -->
+            <!-- class="bg-[#E10A0A] flex flex-row-reverse justify-center items-center text-white rounded-full w-[35px] h-[35px] text-sm">%2</span> -->
+          </div>
+        </div>
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[388px] !w-[181px] !h-[278px] rounded-[20px] mt-10 relative flex flex-col !justify-between pr-2 pl-2 lg:gap-7 lg:pt-9 lg:pb-4 pt-4 pb-2 !shadow-md z-[37]">
+          <div
+            class="gerd w-9 h-9 rounded-full bg-[#1B1B1B] absolute top-[-17px] border-[3px] border-[#434343] flex items-center justify-center">
+            <div class="dot w-1.5 h-1.5 bg-[#434343] rounded-full"></div>
+          </div>
+          <div class="">
+            <img src="./media/porforoosh/4.jpeg" alt="" class="lg:!w-[200px] !w-[146px]" />
+          </div>
+          <div class="">
+            <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5">
+              گوشی موبایل سامسونگ مدل Galaxy A14 ظرفیت 64 گیگابایت رم 4
+              گیگابایت- ویتنام </p>
+          </div>
+          <div class="btm w-[93%] flex justify-between items-center font-iranSansBold">
+            <div class=" text-left leading-none">
+              <h4 class="line-through text-[14px] text-[#A9A9A9]">
+                12.850.000تومان
+              </h4>
+              <h3 class="text-[#E10A0A] font-iranyekan-bold text-[17px]">
+                12.590.000 <span class="font-iranyekan-bold text-[13px]">تومان</span>
+              </h3>
+            </div>
+            <span
+              class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full w-[35px] h-[35px] text-sm">%4</span>
+          </div>
+        </div>
+
+        <div
+          class="swiper-slide lg:!w-[240px] lg:!h-[388px] !w-[181px] !h-[278px] rounded-[20px] mt-10 relative flex flex-col !justify-between pr-2 pl-2 lg:gap-7 lg:pt-9 lg:pb-4 pt-4 pb-2 !shadow-md z-[37]">
+          <div
+            class="gerd w-9 h-9 rounded-full bg-[#1B1B1B] absolute top-[-17px] border-[3px] border-[#434343] flex items-center justify-center">
+            <div class="dot w-1.5 h-1.5 bg-[#434343] rounded-full"></div>
+          </div>
+          <div class="">
+            <img src="./media/porforoosh/5.jpeg" alt="" class="lg:!w-[200px] !w-[146px]" />
+          </div>
+          <div class="">
+            <p class="line-clamp-2 font-iranyekan-bold text-right text-[12px] leading-5">
+              گوشی موبایل سامسونگ مدل Galaxy A14 ظرفیت 64 گیگابایت رم 4
+              گیگابایت- ویتنام </p>
+          </div>
+          <div class="btm w-[93%] flex justify-between items-center font-iranSansBold">
+            <div class=" text-left leading-none">
+              <h4 class="line-through text-[14px] text-[#A9A9A9]">
+                31.850.000تومان
+              </h4>
+              <h3 class="text-[#E10A0A] font-iranyekan-bold text-[17px]">
+                11.590.000 <span class="font-iranyekan-bold text-[13px]">تومان</span>
+              </h3>
+            </div>
+            <span
+              class="bg-[#E10A0A] flex justify-center items-center text-white rounded-full w-[35px] h-[35px] text-sm">%14</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="w-[252px] h-[48px] bg-[#E10A0A] text-white font-iranyekan-bold flex justify-center items-center mx-auto rounded-[10px] mt-16">
+      مشاهده همه
+    </button>
+  </section>
+
+  <!-- start porforoosh -->
+
+  <!-- start brand ha -->
+  <div class="mt-5 w-full flex h-44 flex-col items-center">
+    <div class="flex justify-center gap-5">
+      <img src="./media/svgmenu/svgexport-14.svg" alt="" />
+      <span
+        class="flex text-[18px] justify-center font-iranyekan-bold font-normal lg:text-[20px] text-[#A9A9A9]">برندهای
+        برتر</span>
+      <img src="./media/svgmenu/svgexport-14.svg" alt="" />
+    </div>
+    <div class="swiper mySwiper7 w-[80%] flex justify-center !h-fit">
+      <div
+        class="swiper-wrapper pt-12 lg:!container !flex !justify-cente w-full cursor-pointer flex-row items-center gap-[20px]">
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/1.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/2.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/3.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/4.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/5.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/6.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/7.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/8.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/9.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/10.png" alt="" />
+        </div>
+        <div class="swiper-slide flex justify-center mx-auto">
+          <img class="!w-[120px] !flex !justify-center !h-[40px] !object-contain" src="./media/brandss/11.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end brand ha -->
+
+  <!-- start bishtar -->
+  <div class="container flex flex-col rounded-[16px] !w-[80%] mx-auto border border-surface-normal overflow-hidden p-6">
+    <div>
+      <h3 class="font-iranyekan-bold text-[13px] lg:text-[16px] text-[#505060] mb-4">
+        خرید گوشی
+      </h3>
+
+      <p id="text"
+        class="text-[12px] font-iranyekan-bold lg:text-[12px] text-gray-600 overflow-hidden transition-all duration-300 mb-6"
+        style="max-height: 50px">
+        خرید گوشی و خرید اینترنتی گوشی در این روزها، می‌تواند زمان زیادی از
+        شما بگیرد. در هنگام خرید گوشی موبایل باید به نکات متعددی مانند خرید
+        گوشی موبایل، امکانات گوشی موبایل، ضمانت گوشی موبایل و رجیستری گوشی
+        موبایل در کنار اصالت فروشگاه موبایل دقت کرد. مهم‌‎ترین عامل اثرگذار در
+        تصمیم گیری ما، قیمت روز گوشی موبایل می‌باشد. شما می‌توانید از طریق
+        خرید اینترنتی گوشی از فروشگاه اینترنتی موبایل یا خرید حضوری از شعب
+        دی‌جی‌لند اقدام به خرید گوشی سامسونگ، خرید گوشی شیائومی و سایر برندها
+        کنید.
+        <br />
+        فروشگاه اینترنتی موبایل خرید گوشی موبایل از فروشگاه اینترنتی موبایل،
+        یکی از سریع‌ترین راه‌ها به شمار می‌آید. در زمان خرید اینترنتی گوشی
+        موبایل، باید به نکاتی مانند نشان نماد الکترونیکی، پروتکل SSL و درگاه
+        امن پرداخت فروشگاه اینترنتی توجه کنید. قبل از خرید موبایل، نظرات
+        کاربران را بررسی کنید. این نظرات می‌تواند به شما درک بهتری از تجربه
+        خرید دیگران و کیفیت سرویس‌دهی آن فروشگاه اینترنتی بدهد. مورد بعدی که
+        می‌بایست به آن دقت شود اصالت کالای دیجیتال است.
+        <br />
+        خرید اقساطی گوشی این‌ روزها خرید اقساطی گوشی به دلیل نوسان قیمت گوشی
+        موبایل بهترین راه خرید گوشی محسوب می‌شود. دی‌جی‌لند با فراهم کردن
+        امکان خرید قسطی گوشی موبایل، خرید قسطی لپ تاپ و سایر کالاهای دیجیتال،
+        شرایطی آسان را برای خرید جدیدترین محصولات دیجیتال فراهم کرده است. شما
+        می‌توانید به دو روش حضوری و آنلاین گوشی مورد نظر خود را به صورت قسطی
+        خریداری نمایید. در روش آنلاین کافیست به صفحه ویژه خرید قسطی کالای
+        دیجیتال دی‌جی‌لند و برای خرید حضوری گوشی موبایل کافیست به یکی از شعب
+        دی‌جی‌لند مراجعه کنید تا خرید خود را در سریعترین زمان ممکن و با شرایطی
+        آسان انجام دهید.
+        <br />
+
+        خرید گوشی اپل شرکت اپل با ورود به دنیای تلفن‌های همراه، معنای گوشی
+        هوشمند را برای همه تعریف کرد. از سال ۲۰۰۷ که اولین آیفون معرفی شد، هر
+        ساله کمپانی‌های بزرگ منتظر رونمایی آیفون جدید هستند تا قابلیت‌های جدید
+        این گوشی را بررسی و مدلی قابل رقابتی را به بازار عرضه کنند. قیمت گوشی
+        آیفون همیشه از سایر برندها بالاتر بوده اما طرفدارانش معمولا تا سال‌ها
+        به آن وفادار می‌مانند. از لیست قیمت آیفون در فروشگاه اینترنتی
+        دی‌جی‌لند می‌توانید انواع گوشی آیفون از مدل‌های آیفون ۱۳ ، آیفون 13
+        پرو ، آیفون ۱۳ پرومکس گرفته تا آیفون SE را مشاهده کنید و با خیالی راحت
+        از رجیستری آیفون و همینطور ۱۸ ماه ضمانت، آیفون مورد نظر خود را سفارش
+        دهید.
+        <br />
+        خرید گوشی هواوی هواوی در طول سال‌های فعالیت خود ثابت کرده است که یکی
+        از نوآوران عرصه تکنولوژی به حساب می‌آید. کاربران گوشی های هواوی
+        می‌دانند که این برند حساسیت ویژه‌ای روی دوربین گوشی های خود دارد. فرقی
+        نمی‌کند شما گوشی اقتصادی هواوی را داشته باشید یا گوشی میان رده هوآوی
+        یا گوشی پرچمدار هواوی، همیشه می‌توانید از دوربین باکیفیت گوشی خود لذت
+        ببرید. قیمت گوشی هواوی را همیشه می‌توانید از صفحه گوشی هواوی در سایت
+        دی‌جی‌لند مشاهده و با ضمانت معتبر بخرید.
+        <br />
+        فروشگاه موبایل، کالای دیجیتال و لوازم جانبی دی‌جی‌لند فروشگاه اینترنتی
+        دی‌جی‌لند، اولین و بزرگترین فروشگاه اینترنتی و حضوری کالای دیجیتال در
+        ایران است. از خرید گوشی موبایل یا خرید لپ ‌تاپ تا خرید اسپیکر یا خرید
+        ساعت هوشمند را می‌توانید از فروشگاه اینترنتی دی‌جی‌لند انجام دهید.
+        دی‌جی‌لند علاوه بر فروشگاه اینترنتی، امکان خرید حضوری از شعب خود (۱۰
+        شعبه در کشور) را فراهم کرده است. شما می‌توانید از یکی از دو روش ذکر
+        شده انواع گوشی‌های سامسونگ، شیائومی، اپل، نوکیا، انواع تبلت، انواع
+        لپتاپ، انواع هدفون و هندزفری ، انواع ساعت هوشمند ، انواع تلویزیون ،
+        انواع اسپیکر و ساندبار ، گجت‌های هوشمند و سایر کالاهای دیجیتال را با
+        بهترین قیمت و معتبر ترین گارانتی خریداری کنید. همچنین اگر قصد خرید
+        اینترنتی را دارید می‌توانید تمامی کالاهای دیجیتال را در هر ساعتی از
+        شبانه‌روز و با ارسال سریع از سایت دی‌جی‌لند سفارش دهید.
+      </p>
+    </div>
+
+    <!-- دکمه -->
+    <button id="toggleButton"
+      class="flex w-32 h-16 items-center justify-center font-iranyekan-bold gap-1 text-[#0085ff] mt-auto">
+      مشاهده بیشتر
+      <img class="rotate-180 " src="./media/svgmenu/svgexport-15.svg" alt="فلش" />
+    </button>
+  </div>
+
+  <!-- end bishtar -->
+  <br />
+  <hr />
+  <!-- start footer -->
+  <div class="lg:block hidden mt-5 !w-[80%]  mx-auto  container flex flex-col">
+    <div class="">
+      <img src="./media/footer/dgland_footer_logo.svg" alt="" />
+    </div>
+
+    <div class="flex justify-between h-auto w-auto">
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">درباره‌ی دی‌جی‌لند</p>
+        <p class="text-gray-500 font-iranyekan-bold">تماس با ما</p>
+        <p class="text-gray-500 font-iranyekan-bold"> درباره‌ی ما </p>
+        <p class="text-gray-500 font-iranyekan-bold">مجله‌ی دی‌جی‌لند </p>
+        <p class="text-gray-500 font-iranyekan-bold">شعب</p>
+        <p class="text-gray-500 font-iranyekan-bold">شرایط و قوانین</p>
+        <p class="text-gray-500 font-iranyekan-bold">خرید اقساطی</p>
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">خدمات مشتریان</p>
+        <p class="text-gray-500 font-iranyekan-bold">پرسش‌های متداول</p>
+        <p class="text-gray-500 font-iranyekan-bold"> راهنمای خرید</p>
+        <p class="text-gray-500 font-iranyekan-bold">شرایط بازگشت کالا</p>
+        <p class="text-gray-500 font-iranyekan-bold">ثبت شکایات </p>
+        <p class="text-gray-500 font-iranyekan-bold">حریم خصوصی</p>
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">دسته‌بندی‌های پربازدید</p>
+        <p class="text-gray-500 font-iranyekan-bold">گوشی موبایل</p>
+        <p class="text-gray-500 font-iranyekan-bold"> لپتاب</p>
+        <p class="text-gray-500 font-iranyekan-bold">هدفون و هندزفری</p>
+        <p class="text-gray-500 font-iranyekan-bold">اسپیکر و بلندگو</p>
+        <p class="text-gray-500 font-iranyekan-bold">ساعت هوشمند</p>
+        <p class="text-gray-500 font-iranyekan-bold">تجهیزات ذخیره سازی</p>
+        <p class="text-gray-500 font-iranyekan-bold">شارژر و پاوربانک</p>
+
+      </div>
+
+      <div class="flex flex-col gap-2 text-[12px] mt-4 font-medium">
+        <p class="mb-2  text-[14px] font-iranyekan-bold text-[#505060]">ساعت پاسخگویی</p>
+        <p class="text-gray-500 font-iranyekan-bold">۷ روز هفته از ساعت ۹ الی ۲۰</p>
+        <div class=" flex-col flex  gap-2 mt-1">
+          <div class="mohtava flex gap-1 cursor-pointer">
+            <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+            <div class="call flex flex-col">
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                تلفن امور مشتریان
+              </p>
+              <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+            </div>
+          </div>
+          <div class="mohtava flex gap-1 cursor-pointer">
+            <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+            <div class=" flex flex-col">
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                روابط عمومی
+              </p>
+              <p class="font-yekExtra text-[12px] text-[#878787]">
+                Info@dgland.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class=" flex flex-col">
+        <h1 class="font-iranyekan-bold text-[#505060] text-[14px] my-4">
+          ما را دنبال کنید
+        </h1>
+        <div class="pic flex gap-5 cursor-pointer">
+          <img src="./media/svgmenu/svgexport-18.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-19.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-20.svg" alt="" />
+          <img src="./media/svgmenu/svgexport-21.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="hidden lg:block   w-[80%] mx-auto mt-2 lg:flex">
+    <div class=" w-[50%]">
+      <h1 class="font-iranyekan-bold mb-2 text-[#505060]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="text-[11px]  font-iranyekan-bold text-[#878787]">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه
+        به رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و
+        نیاز به کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی
+        خدمت‌رسانی و تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای
+        دیجیتال ، لوازم خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:flex w-[50%] flex justify-center gap-4">
+      <img src="./media/footer/2.png" alt="" class="!w-[80px] !object-contain" />
+      <img src="./media/footer/1.webp" alt="" class="!w-[80px] !object-contain" />
+    </div>
+  </div>
+  </div>
+
+  <div class="  mx-auto lg:hidden pb-6 w-[92%] pt-2">
+    <div class="titr w-full container mx-auto text-center">
+      <p class="font-iranyekan-bold text-[16px] text-[#878787]">
+        <span class="font-iranyekan-bold text-[#E10A0A]">همراه شما هستیم.</span> با ما در ارتباط
+        باشید...
+      </p>
+      <p class="font-iranyekan-bold font-thin mt-3 text-[16px] text-[#797979] mb-2">
+        ۷ روز هفته از ساعت ۹ الی ۲۰
+      </p>
+    </div>
+    <div class="items mx-auto flex justify-center gap-2 mt-7">
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-16.svg" alt="" />
+        <div class=" flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            تلفن امور مشتریان
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">021-41016</p>
+        </div>
+      </div>
+      <div class="mohtava flex gap-1 cursor-pointer">
+        <img src="./media/svgmenu/svgexport-17.svg" alt="" />
+        <div class=" flex flex-col">
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            روابط عمومی
+          </p>
+          <p class="font-yekExtra text-[12px] text-[#878787]">
+            Info@dgland.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="khdmat flex justify-around container mt-12">
+      <img src="./media/footer/11.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/22.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/3.png" class="!h-[61.39px]" alt="" />
+      <img src="./media/footer/44.png" class="!h-[61.39px]" alt="" />
+    </div>
+    <div class="lg:hidden block mx-auto font-iranyekan-bold mt-10">
+      <h1 class="text-[#525252]">
+        فروشگاه اینترنتی <span class="text-[#E10A0A]">دی‌جی‌لند</span>
+      </h1>
+      <p class="font-iranyekan-bold text-[11px] text-zinc-500">
+        فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه به
+        رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و نیاز به
+        کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی خدمت‌رسانی و
+        تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای دیجیتال ، لوازم
+        خانگی و سرگرمی است.
+      </p>
+    </div>
+    <div class="lg:hidden block flex w-[95%] mx-auto justify-center mt-2 gap-5">
+      <img src="./media/footer/2.png" class="!w-[80px] !object-contain" alt="" />
+      <img src="./media/footer/1.webp" class="!w-[80px] !object-contain" alt="" />
+    </div>
+  </div>
+  </section>
+
+
+  <!-- start footer -->
+
+  <!-- start copyright -->
+  <div class="hidden lg:block mt-[23px] w-full border-t px-[10px] ">
+    <div class="container mx-auto flex !w-[80%] ">
+      <div class="flex w-full flex-row items-center justify-between py-[10px] text-[12px] font-light">
+        <div>
+          <p class="text-[#878787] font-iranyekan-bold"> © کلیه حقوق این وب سایت متعلق به aliomidi است.</p>
+        </div>
+        <div dir="ltr" class="text-[#878787] font-iranyekan-bold">© Copyright 2022 Dgland.com</div>
+      </div>
+    </div>
+  </div>
+
+  <footer
+    class=" bg-white mt-[-100px] !fixed  bottom-0  lg:hidden w-full h-[70px]   scroll-m-2 border-t-4   shadow-sm   z-10  ">
+    <div class="container !w-[99%] justify-between flex  h-[70px] mx-auto">
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-17.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[14px]">خانه</p>
+      </div>
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-18.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[12px] ">دسته‌بندی</p>
+      </div>
+      <div class="mx-auto justify-center flex flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-19.svg" alt="">
+        <p class="font-iranyekan-bold pr-1   text-[#878787] text-[12px] ">سبد‌خرید</p>
+      </div>
+      <div class="mx-auto justify-center pr-3  flex-wrap  my-auto w-[50px] h-[47px] ">
+        <img src="./media/menuuu mobile/svgexport-20.svg" alt="">
+        <p class="font-iranyekan-bold  pr-1   text-[#878787] text-[14px] ">ورود</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end copyright -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
