@@ -1,3 +1,6 @@
+document.write(alert(  "  برای رفتن به صفحه دوم از منو بر روی موبایل کلیک کنید و در حالت رسپنسیو بر روی پیشنهاد ویژه از داخل منو<<<<<<< و برای ورود به صفحه سوم بر روی گوشی s24ultra کلیک کنید" ));
+
+
 //
 const menuToggle = document.getElementById("menu-toggle");
 const mobileMenu = document.getElementById("mobile-menu");
